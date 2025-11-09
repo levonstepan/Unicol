@@ -132,21 +132,24 @@ if (contactForm) {
 }
 
 // Language Switcher (prepared for future Armenian implementation)
-const langLinks = document.querySelectorAll('.lang-link');
+const langButtons = document.querySelectorAll('.lang-btn');
 
-langLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
+langButtons.forEach(button => {
+    button.addEventListener('click', (e) => {
         e.preventDefault();
-        const lang = link.getAttribute('data-lang');
+        const lang = button.getAttribute('data-lang');
         
-        // Remove active class from all links
-        langLinks.forEach(l => l.classList.remove('active'));
+        // Remove active class from all buttons
+        langButtons.forEach(btn => btn.classList.remove('active'));
         
-        // Add active class to clicked link
-        link.classList.add('active');
+        // Add active class to clicked button
+        button.classList.add('active');
         
         // Store language preference
         localStorage.setItem('preferredLanguage', lang);
+        
+        // Update HTML lang attribute
+        document.documentElement.lang = lang;
         
         // For now, just log the language change
         // In the future, this will load the Armenian version
@@ -161,11 +164,12 @@ langLinks.forEach(link => {
 document.addEventListener('DOMContentLoaded', () => {
     const preferredLang = localStorage.getItem('preferredLanguage');
     if (preferredLang) {
-        langLinks.forEach(link => {
-            if (link.getAttribute('data-lang') === preferredLang) {
-                link.classList.add('active');
+        langButtons.forEach(button => {
+            if (button.getAttribute('data-lang') === preferredLang) {
+                button.classList.add('active');
+                document.documentElement.lang = preferredLang;
             } else {
-                link.classList.remove('active');
+                button.classList.remove('active');
             }
         });
     }
