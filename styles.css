@@ -477,6 +477,14 @@ section {
     margin: 0 auto;
 }
 
+.sustainability-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow-md);
+}
+
 .sustainability-title {
     font-size: 2.5rem;
     font-weight: 700;
