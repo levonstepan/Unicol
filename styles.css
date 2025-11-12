@@ -214,6 +214,17 @@ body {
     max-width: 800px;
 }
 
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
 .hero-badge {
     display: inline-block;
     padding: 8px 20px;
