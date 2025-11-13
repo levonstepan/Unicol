@@ -169,15 +169,30 @@ body {
     line-height: 1;
     display: inline-block;
     vertical-align: middle;
+    font-family: "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .flag-us {
     margin-right: 0.3rem;
 }
 
+.flag-us::before {
+    content: "🇺🇸";
+    display: inline-block;
+}
+
 .flag-am {
     margin-left: 0.3rem;
     margin-right: 0.3rem;
+}
+
+.flag-am::before {
+    content: "🇦🇲";
+    display: inline-block;
 }
 
 .lang-text {
