@@ -380,6 +380,10 @@ section {
 }
 
 /* Products Section */
+.products {
+    background-color: #DED1B6;
+}
+
 .products-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
