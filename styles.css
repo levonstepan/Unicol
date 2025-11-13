@@ -351,7 +351,7 @@ section {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1.2fr 2fr;
     gap: 3rem;
     align-items: start;
 }
@@ -360,7 +360,7 @@ section {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1.2fr 2fr;
     gap: 3rem;
     text-align: left;
 }
@@ -370,9 +370,9 @@ section {
 }
 
 .about-image-frame {
-    border: 12px solid #DED1B6;
+    border: 16px solid #DED1B6;
     border-radius: 8px;
-    padding: 12px;
+    padding: 16px;
     background: white;
     box-shadow: var(--shadow-md);
     position: relative;
