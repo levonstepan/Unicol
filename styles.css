@@ -370,7 +370,7 @@ section {
 }
 
 .about-image-frame {
-    border: 16px solid var(--primary-color);
+    border: 16px solid #00008B;
     border-radius: 8px;
     padding: 16px;
     background: white;
