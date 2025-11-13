@@ -164,8 +164,10 @@ body {
 }
 
 .flag-icon {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1;
+    display: inline-block;
+    margin-right: 0.2rem;
 }
 
 .lang-text {
