@@ -356,10 +356,23 @@ section {
     align-items: start;
 }
 
+.about .section-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    text-align: left;
+}
+
+.about .section-header > * {
+    grid-column: 2;
+}
+
 .about-image-frame {
-    border: 8px solid #DED1B6;
+    border: 12px solid #DED1B6;
     border-radius: 8px;
-    padding: 8px;
+    padding: 12px;
     background: white;
     box-shadow: var(--shadow-md);
     position: relative;
