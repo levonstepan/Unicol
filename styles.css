@@ -493,6 +493,11 @@ section {
     line-height: 1.6;
 }
 
+.products-actions {
+    text-align: center;
+    margin-top: 3rem;
+}
+
 /* Applications Section */
 .applications {
     background: var(--bg-light);
