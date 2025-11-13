@@ -165,18 +165,19 @@ body {
 }
 
 .flag-icon {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .flag-us {
-    margin-right: 0.2rem;
+    margin-right: 0.3rem;
 }
 
 .flag-am {
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
 }
 
 .lang-text {
