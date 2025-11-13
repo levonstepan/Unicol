@@ -372,9 +372,9 @@ section {
 }
 
 .about-image-frame {
-    border: 6px solid #00008B;
+    border: 2px solid #0C2577;
     border-radius: 8px;
-    padding: 6px;
+    padding: 4px;
     background: white;
     box-shadow: var(--shadow-md);
     position: relative;
