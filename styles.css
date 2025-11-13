@@ -196,7 +196,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('images/glue.jpg');
+    background-image: url('./images/glue.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -370,7 +370,7 @@ section {
 }
 
 .about-image-frame {
-    border: 16px solid #DED1B6;
+    border: 16px solid var(--primary-color);
     border-radius: 8px;
     padding: 16px;
     background: white;
