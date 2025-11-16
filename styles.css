@@ -679,12 +679,13 @@ section {
     height: 280px;
     min-height: 280px;
     object-fit: cover;
-    display: block;
+    display: block !important;
     background-color: #f0f0f0;
-    visibility: visible;
-    opacity: 1;
+    visibility: visible !important;
+    opacity: 1 !important;
     max-width: 100%;
     position: relative;
+    z-index: 1;
 }
 
 .application-title {
