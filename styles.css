@@ -484,14 +484,23 @@ section {
     animation: move linear infinite;
 }
 
-.products-background .ball:nth-child(odd) {
+/* Green balls at positions 1, 4, 7, 10 */
+.products-background .ball:nth-child(1),
+.products-background .ball:nth-child(4),
+.products-background .ball:nth-child(7),
+.products-background .ball:nth-child(10) {
     color: #006D5B;
 }
 
-.products-background .ball:nth-child(even) {
+/* Red balls at positions 2, 5, 8, 11 */
+.products-background .ball:nth-child(2),
+.products-background .ball:nth-child(5),
+.products-background .ball:nth-child(8),
+.products-background .ball:nth-child(11) {
     color: #FF6F61;
 }
 
+/* Blue balls at positions 3, 6, 9, 12 */
 .products-background .ball.ball-blue {
     color: #0C2577 !important;
 }
@@ -602,24 +611,6 @@ section {
     animation-delay: -35s;
     transform-origin: 30vw -10vh;
     box-shadow: 40vmin 0 5.4vmin currentColor;
-}
-
-.products-background .ball:nth-child(13) {
-    top: 10%;
-    left: 30%;
-    animation-duration: 41s;
-    animation-delay: -20s;
-    transform-origin: -10vw -20vh;
-    box-shadow: -40vmin 0 5.6vmin currentColor;
-}
-
-.products-background .ball:nth-child(14) {
-    top: 90%;
-    left: 70%;
-    animation-duration: 37s;
-    animation-delay: -18s;
-    transform-origin: 15vw 25vh;
-    box-shadow: 40vmin 0 5.2vmin currentColor;
 }
 
 .products-grid {
