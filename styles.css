@@ -367,6 +367,13 @@ section {
     background: var(--bg-light);
 }
 
+.about .section-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
 .about-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -374,19 +381,6 @@ section {
     grid-template-columns: 1.8fr 2fr;
     gap: 3rem;
     align-items: start;
-}
-
-.about .section-header {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1.8fr 2fr;
-    gap: 3rem;
-    text-align: left;
-}
-
-.about .section-header > * {
-    grid-column: 1;
 }
 
 .about .section-title {
