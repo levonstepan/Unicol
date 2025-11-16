@@ -612,18 +612,22 @@ section {
 .rd-image {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
-    min-height: 300px;
+    min-height: 400px;
+    position: relative;
+    padding: 1rem;
 }
 
 .rd-belt-image {
-    width: 100%;
+    width: auto;
     max-width: 100%;
     height: auto;
+    max-height: 400px;
     display: block;
     object-fit: contain;
-    max-height: 500px;
+    visibility: visible;
+    opacity: 1;
 }
 
 /* Sustainability Section */
