@@ -343,10 +343,6 @@ section {
     padding: 50px 0;
 }
 
-section.products {
-    overflow: visible !important;
-}
-
 .section-header {
     text-align: center;
     margin-bottom: 4rem;
@@ -368,9 +364,7 @@ section.products {
 
 /* About Section */
 .about {
-    background: linear-gradient(to bottom, var(--bg-light) 0%, var(--bg-light) 70%, rgba(247, 250, 252, 0.5) 85%, transparent 100%);
-    position: relative;
-    z-index: 1;
+    background: var(--bg-light);
 }
 
 .about-content {
@@ -467,48 +461,18 @@ section.products {
 
 .products {
     position: relative;
-    overflow: visible !important;
-    margin-top: -150px;
-    margin-bottom: -150px;
-    padding-top: calc(50px + 150px);
-    padding-bottom: calc(50px + 150px);
+    overflow: hidden;
 }
 
 .products-background {
     position: absolute;
-    width: 100vw;
-    height: calc(100% + 300px);
-    top: -150px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #faf0e6;
-    overflow: visible;
-    z-index: 0;
-    clip-path: none;
-}
-
-.products-background::before {
-    content: '';
-    position: absolute;
+    width: 100%;
+    height: 100%;
     top: 0;
     left: 0;
-    right: 0;
-    height: 300px;
-    background: linear-gradient(to bottom, rgba(247, 250, 252, 0) 0%, rgba(247, 250, 252, 0.3) 20%, rgba(250, 240, 230, 0.6) 50%, rgba(250, 240, 230, 0.95) 80%, #faf0e6 100%);
-    pointer-events: none;
-    z-index: 1;
-}
-
-.products-background::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 300px;
-    background: linear-gradient(to top, rgba(247, 250, 252, 0) 0%, rgba(247, 250, 252, 0.3) 20%, rgba(250, 240, 230, 0.6) 50%, rgba(250, 240, 230, 0.95) 80%, #faf0e6 100%);
-    pointer-events: none;
-    z-index: 1;
+    background: #faf0e6;
+    overflow: hidden;
+    z-index: 0;
 }
 
 .products-background .ball {
@@ -518,8 +482,6 @@ section.products {
     border-radius: 50%;
     backface-visibility: hidden;
     animation: move linear infinite;
-    will-change: transform;
-    transform-style: preserve-3d;
 }
 
 .products-background .ball:nth-child(odd) {
@@ -528,10 +490,6 @@ section.products {
 
 .products-background .ball:nth-child(even) {
     color: #FF6F61;
-}
-
-.products-background .ball-blue {
-    color: #0C2577;
 }
 
 .products-background .ball:nth-child(1) {
@@ -606,42 +564,6 @@ section.products {
     box-shadow: 40vmin 0 5.196265905749415vmin currentColor;
 }
 
-.products-background .ball:nth-child(9) {
-    top: 15%;
-    left: 60%;
-    animation-duration: 38s;
-    animation-delay: -15s;
-    transform-origin: -15vw -15vh;
-    box-shadow: -40vmin 0 5.5vmin currentColor;
-}
-
-.products-background .ball:nth-child(10) {
-    top: 85%;
-    left: 45%;
-    animation-duration: 45s;
-    animation-delay: -25s;
-    transform-origin: 20vw 20vh;
-    box-shadow: 40vmin 0 5.3vmin currentColor;
-}
-
-.products-background .ball:nth-child(11) {
-    top: 35%;
-    left: 75%;
-    animation-duration: 32s;
-    animation-delay: -12s;
-    transform-origin: -25vw 10vh;
-    box-shadow: -40vmin 0 5.7vmin currentColor;
-}
-
-.products-background .ball:nth-child(12) {
-    top: 65%;
-    left: 5%;
-    animation-duration: 48s;
-    animation-delay: -35s;
-    transform-origin: 30vw -10vh;
-    box-shadow: 40vmin 0 5.4vmin currentColor;
-}
-
 .products-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -692,9 +614,7 @@ section.products {
 
 /* Applications Section */
 .applications {
-    background: linear-gradient(to top, var(--bg-light) 0%, var(--bg-light) 70%, rgba(247, 250, 252, 0.5) 85%, transparent 100%);
-    position: relative;
-    z-index: 1;
+    background: var(--bg-light);
 }
 
 .applications-grid {
