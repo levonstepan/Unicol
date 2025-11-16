@@ -484,23 +484,15 @@ section {
     animation: move linear infinite;
 }
 
-/* Green balls at positions 1, 4, 7, 10 */
+/* Red balls at positions 1, 3, 5, 7 */
 .products-background .ball:nth-child(1),
-.products-background .ball:nth-child(4),
-.products-background .ball:nth-child(7),
-.products-background .ball:nth-child(10) {
-    color: #006D5B;
-}
-
-/* Red balls at positions 2, 5, 8, 11 */
-.products-background .ball:nth-child(2),
+.products-background .ball:nth-child(3),
 .products-background .ball:nth-child(5),
-.products-background .ball:nth-child(8),
-.products-background .ball:nth-child(11) {
+.products-background .ball:nth-child(7) {
     color: #FF6F61;
 }
 
-/* Blue balls at positions 3, 6, 9, 12 */
+/* Blue balls at positions 2, 4, 6, 8 */
 .products-background .ball.ball-blue {
     color: #0C2577 !important;
 }
@@ -575,42 +567,6 @@ section {
     animation-delay: -28s;
     transform-origin: 25vw -3vh;
     box-shadow: 40vmin 0 5.196265905749415vmin currentColor;
-}
-
-.products-background .ball:nth-child(9) {
-    top: 15%;
-    left: 60%;
-    animation-duration: 38s;
-    animation-delay: -15s;
-    transform-origin: -15vw -15vh;
-    box-shadow: -40vmin 0 5.5vmin currentColor;
-}
-
-.products-background .ball:nth-child(10) {
-    top: 85%;
-    left: 45%;
-    animation-duration: 45s;
-    animation-delay: -25s;
-    transform-origin: 20vw 20vh;
-    box-shadow: 40vmin 0 5.3vmin currentColor;
-}
-
-.products-background .ball:nth-child(11) {
-    top: 35%;
-    left: 75%;
-    animation-duration: 32s;
-    animation-delay: -12s;
-    transform-origin: -25vw 10vh;
-    box-shadow: -40vmin 0 5.7vmin currentColor;
-}
-
-.products-background .ball:nth-child(12) {
-    top: 65%;
-    left: 5%;
-    animation-duration: 48s;
-    animation-delay: -35s;
-    transform-origin: 30vw -10vh;
-    box-shadow: 40vmin 0 5.4vmin currentColor;
 }
 
 .products-grid {
