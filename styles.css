@@ -529,7 +529,7 @@ section {
 .applications-grid .application-card:nth-child(4),
 .applications-grid .application-card:nth-child(5) {
     position: relative;
-    left: 16.666%;
+    left: 25%;
 }
 
 .application-card {
