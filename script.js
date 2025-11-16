@@ -257,5 +257,134 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Add loading animation removal
     document.body.classList.add('loaded');
+    
+    // Initialize Products section dynamic background
+    initProductsBackground();
 });
+
+// Products Section Dynamic Background with Trianglify
+function initProductsBackground() {
+    // Check if jQuery and Trianglify are available
+    if (typeof jQuery === 'undefined' || typeof Trianglify === 'undefined' || typeof Velocity === 'undefined') {
+        console.warn('jQuery, Trianglify, or Velocity.js not loaded. Dynamic background disabled.');
+        return;
+    }
+
+    var $ = jQuery;
+    var productsSection = $('#products');
+    var container = $('#products-background-container');
+    var bg1 = $('#products-background-1');
+    var bg2 = $('#products-background-2');
+
+    if (container.length === 0) {
+        return;
+    }
+
+    // Set container and backgrounds to section height
+    function setDimensions() {
+        var sectionHeight = productsSection.outerHeight();
+        var sectionWidth = productsSection.outerWidth();
+        
+        container.css({
+            'min-width': sectionWidth,
+            'min-height': sectionHeight
+        });
+        
+        bg1.css({
+            'min-width': sectionWidth,
+            'min-height': sectionHeight
+        });
+        
+        bg2.css({
+            'min-width': sectionWidth,
+            'min-height': sectionHeight
+        });
+    }
+
+    // Global svg object
+    var svg = {};
+    var draw = 1;
+
+    // Create new svg
+    var svgNew = function() {
+        svg.t = new Trianglify({
+            noiseIntensity: 0,
+        });
+        svg.width = productsSection.outerWidth();
+        svg.height = productsSection.outerHeight();
+        svg.pattern = svg.t.generate(svg.width, svg.height);
+
+        if (draw === 1) {
+            svgDraw1();
+        } else {
+            svgDraw2();
+        }
+    };
+
+    // Draw svg on bg1
+    var svgDraw1 = function(resize) {
+        draw = 2;
+        if (resize === 'resize') {
+            svg.pattern = svg.t.generate(svg.width, svg.height);
+            bg1.css({
+                'min-width': svg.width,
+                'min-height': svg.height,
+                'background': svg.pattern.dataUrl
+            });
+        } else {
+            bg1.css({
+                'background': svg.pattern.dataUrl
+            });
+            fade1();
+        }
+    };
+
+    // Draw svg on bg2
+    var svgDraw2 = function(resize) {
+        draw = 1;
+        if (resize === 'resize') {
+            svg.pattern = svg.t.generate(svg.width, svg.height);
+            bg2.css({
+                'min-width': svg.width,
+                'min-height': svg.height,
+                'background': svg.pattern.dataUrl
+            });
+        } else {
+            bg2.css({
+                'background': svg.pattern.dataUrl
+            });
+            fade2();
+        }
+    };
+
+    // Fade animations
+    var fade1 = function() {
+        bg1.velocity("fadeIn", { duration: 3000 });
+        bg2.velocity("fadeOut", { duration: 4000 });
+    };
+
+    var fade2 = function() {
+        bg2.velocity("fadeIn", { duration: 3000 });
+        bg1.velocity("fadeOut", { duration: 4000 });
+    };
+
+    // Initialize dimensions and start animation
+    setDimensions();
+    svgNew();
+    
+    // Recreate svg every 5 seconds
+    window.setInterval(svgNew, 5000);
+
+    // Handle window resize
+    $(window).resize(function() {
+        svg.width = productsSection.outerWidth();
+        svg.height = productsSection.outerHeight();
+        container.css({
+            'min-width': svg.width,
+            'min-height': svg.height
+        });
+        svgDraw1('resize');
+        svgDraw2('resize');
+    });
+}
 
