@@ -613,12 +613,17 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    min-height: 300px;
 }
 
 .rd-belt-image {
+    width: 100%;
     max-width: 100%;
     height: auto;
     display: block;
+    object-fit: contain;
+    max-height: 500px;
 }
 
 /* Sustainability Section */
