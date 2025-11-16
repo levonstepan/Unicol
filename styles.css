@@ -515,12 +515,21 @@ section {
 }
 
 .applications-grid .application-card:nth-child(4) {
-    grid-column: 2 / 3;
-    transform: translateX(calc(-100% - 1rem));
+    grid-column: 1 / 2;
+    justify-self: end;
+    margin-right: 1rem;
 }
 
 .applications-grid .application-card:nth-child(5) {
     grid-column: 2 / 3;
+    justify-self: start;
+    margin-left: 1rem;
+}
+
+.applications-grid .application-card:nth-child(4),
+.applications-grid .application-card:nth-child(5) {
+    position: relative;
+    left: 16.666%;
 }
 
 .application-card {
@@ -538,8 +547,9 @@ section {
     box-shadow: var(--shadow-lg);
 }
 
-.applications-grid .application-card:nth-child(4):hover {
-    transform: translateX(calc(-100% - 1rem)) translateY(-5px);
+.applications-grid .application-card:nth-child(4):hover,
+.applications-grid .application-card:nth-child(5):hover {
+    transform: translateY(-5px);
 }
 
 .application-image {
@@ -882,9 +892,14 @@ section {
     .applications-grid .application-card:nth-child(5) {
         grid-column: 1 / 2;
         transform: none;
+        left: 0;
+        margin-left: 0;
+        margin-right: 0;
+        justify-self: stretch;
     }
 
-    .applications-grid .application-card:nth-child(4):hover {
+    .applications-grid .application-card:nth-child(4):hover,
+    .applications-grid .application-card:nth-child(5):hover {
         transform: translateY(-5px);
     }
 
