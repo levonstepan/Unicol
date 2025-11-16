@@ -380,14 +380,7 @@ section {
     max-width: 1200px;
     margin: 0 auto;
     margin-bottom: 2rem;
-    text-align: left;
-    display: grid;
-    grid-template-columns: 1.8fr 2fr;
-    gap: 3rem;
-}
-
-.about .section-header > * {
-    grid-column: 2;
+    text-align: center;
 }
 
 .about .section-title {
