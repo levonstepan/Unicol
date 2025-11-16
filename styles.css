@@ -637,7 +637,7 @@ section {
 }
 
 .sustainability-content {
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -670,8 +670,16 @@ section {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 100%);
     text-align: center;
+}
+
+.sustainability-text-background {
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 90%;
 }
 
 .sustainability-title {
