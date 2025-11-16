@@ -343,6 +343,10 @@ section {
     padding: 50px 0;
 }
 
+section.products {
+    overflow: visible !important;
+}
+
 .section-header {
     text-align: center;
     margin-bottom: 4rem;
@@ -463,7 +467,7 @@ section {
 
 .products {
     position: relative;
-    overflow: visible;
+    overflow: visible !important;
     margin-top: -150px;
     margin-bottom: -150px;
     padding-top: calc(50px + 150px);
@@ -480,6 +484,7 @@ section {
     background: #faf0e6;
     overflow: visible;
     z-index: 0;
+    clip-path: none;
 }
 
 .products-background::before {
@@ -513,6 +518,8 @@ section {
     border-radius: 50%;
     backface-visibility: hidden;
     animation: move linear infinite;
+    will-change: transform;
+    transform-style: preserve-3d;
 }
 
 .products-background .ball:nth-child(odd) {
@@ -521,6 +528,10 @@ section {
 
 .products-background .ball:nth-child(even) {
     color: #FF6F61;
+}
+
+.products-background .ball-blue {
+    color: #0C2577;
 }
 
 .products-background .ball:nth-child(1) {
@@ -593,6 +604,42 @@ section {
     animation-delay: -28s;
     transform-origin: 25vw -3vh;
     box-shadow: 40vmin 0 5.196265905749415vmin currentColor;
+}
+
+.products-background .ball:nth-child(9) {
+    top: 15%;
+    left: 60%;
+    animation-duration: 38s;
+    animation-delay: -15s;
+    transform-origin: -15vw -15vh;
+    box-shadow: -40vmin 0 5.5vmin currentColor;
+}
+
+.products-background .ball:nth-child(10) {
+    top: 85%;
+    left: 45%;
+    animation-duration: 45s;
+    animation-delay: -25s;
+    transform-origin: 20vw 20vh;
+    box-shadow: 40vmin 0 5.3vmin currentColor;
+}
+
+.products-background .ball:nth-child(11) {
+    top: 35%;
+    left: 75%;
+    animation-duration: 32s;
+    animation-delay: -12s;
+    transform-origin: -25vw 10vh;
+    box-shadow: -40vmin 0 5.7vmin currentColor;
+}
+
+.products-background .ball:nth-child(12) {
+    top: 65%;
+    left: 5%;
+    animation-duration: 48s;
+    animation-delay: -35s;
+    transform-origin: 30vw -10vh;
+    box-shadow: 40vmin 0 5.4vmin currentColor;
 }
 
 .products-grid {
