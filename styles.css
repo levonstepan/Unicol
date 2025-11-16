@@ -486,14 +486,17 @@ section {
 
 .products-background .ball:nth-child(odd) {
     color: #006D5B;
+    background-color: #006D5B;
 }
 
 .products-background .ball:nth-child(even) {
     color: #FF6F61;
+    background-color: #FF6F61;
 }
 
-.products-background .ball-blue {
-    color: #0C2577;
+.products-background .ball.ball-blue {
+    color: #0C2577 !important;
+    background-color: #0C2577 !important;
 }
 
 .products-background .ball:nth-child(1) {
