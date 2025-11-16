@@ -364,7 +364,7 @@ section {
 
 /* About Section */
 .about {
-    background: var(--bg-light);
+    background: linear-gradient(to bottom, var(--bg-light) 0%, var(--bg-light) 70%, rgba(247, 250, 252, 0.5) 85%, transparent 100%);
     position: relative;
     z-index: 1;
 }
@@ -464,18 +464,19 @@ section {
 .products {
     position: relative;
     overflow: visible;
-    margin-top: -100px;
-    margin-bottom: -100px;
-    padding-top: calc(50px + 100px);
-    padding-bottom: calc(50px + 100px);
+    margin-top: -150px;
+    margin-bottom: -150px;
+    padding-top: calc(50px + 150px);
+    padding-bottom: calc(50px + 150px);
 }
 
 .products-background {
     position: absolute;
-    width: 100%;
-    height: calc(100% + 200px);
-    top: -100px;
-    left: 0;
+    width: 100vw;
+    height: calc(100% + 300px);
+    top: -150px;
+    left: 50%;
+    transform: translateX(-50%);
     background: #faf0e6;
     overflow: visible;
     z-index: 0;
@@ -487,8 +488,8 @@ section {
     top: 0;
     left: 0;
     right: 0;
-    height: 200px;
-    background: linear-gradient(to bottom, var(--bg-light) 0%, rgba(250, 240, 230, 0.8) 50%, #faf0e6 100%);
+    height: 300px;
+    background: linear-gradient(to bottom, rgba(247, 250, 252, 0) 0%, rgba(247, 250, 252, 0.3) 20%, rgba(250, 240, 230, 0.6) 50%, rgba(250, 240, 230, 0.95) 80%, #faf0e6 100%);
     pointer-events: none;
     z-index: 1;
 }
@@ -499,8 +500,8 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    height: 200px;
-    background: linear-gradient(to top, var(--bg-light) 0%, rgba(250, 240, 230, 0.8) 50%, #faf0e6 100%);
+    height: 300px;
+    background: linear-gradient(to top, rgba(247, 250, 252, 0) 0%, rgba(247, 250, 252, 0.3) 20%, rgba(250, 240, 230, 0.6) 50%, rgba(250, 240, 230, 0.95) 80%, #faf0e6 100%);
     pointer-events: none;
     z-index: 1;
 }
@@ -644,7 +645,7 @@ section {
 
 /* Applications Section */
 .applications {
-    background: var(--bg-light);
+    background: linear-gradient(to top, var(--bg-light) 0%, var(--bg-light) 70%, rgba(247, 250, 252, 0.5) 85%, transparent 100%);
     position: relative;
     z-index: 1;
 }
