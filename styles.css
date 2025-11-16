@@ -448,11 +448,6 @@ section {
     overflow: hidden;
 }
 
-.products {
-    position: relative;
-    overflow: hidden;
-}
-
 .products .container {
     position: relative;
     z-index: 1;
