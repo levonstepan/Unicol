@@ -680,6 +680,9 @@ section {
     object-fit: cover;
     display: block;
     background-color: #f0f0f0;
+    min-height: 280px;
+    visibility: visible;
+    opacity: 1;
 }
 
 .application-title {
