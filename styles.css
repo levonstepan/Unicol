@@ -386,7 +386,7 @@ section {
 }
 
 .about .section-header > * {
-    grid-column: 2;
+    grid-column: 1;
 }
 
 .about .section-title {
