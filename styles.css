@@ -847,10 +847,20 @@ section {
     border: 1px solid var(--border-color);
 }
 
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
 .contact-icon {
     font-size: 2rem;
-    margin-bottom: 0.5rem;
-    display: block;
+    flex-shrink: 0;
+    margin-top: 0.25rem;
+}
+
+.contact-item-content {
+    flex: 1;
 }
 
 .contact-item h3 {
