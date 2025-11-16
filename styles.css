@@ -723,6 +723,7 @@ section {
     height: 280px;
     object-fit: cover;
     display: block;
+    background-color: #f0f0f0;
 }
 
 .application-title {
