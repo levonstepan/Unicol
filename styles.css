@@ -9,7 +9,7 @@
     --primary-color: #1a1a2e;
     --secondary-color: #16213e;
     --accent-color: #0f3460;
-    --highlight-color: #E67E2C;
+    --highlight-color: #FF5C40;
     --text-primary: #1a1a2e;
     --text-secondary: #4a5568;
     --text-light: #718096;
@@ -149,7 +149,7 @@ body {
 
 .lang-btn:hover {
     border-color: var(--highlight-color);
-    background: rgba(230, 126, 44, 0.05);
+    background: rgba(255, 92, 64, 0.05);
     color: var(--highlight-color);
 }
 
@@ -160,8 +160,8 @@ body {
 }
 
 .lang-btn.active:hover {
-    background: #d16a1f;
-    border-color: #d16a1f;
+    background: #e64a2e;
+    border-color: #e64a2e;
 }
 
 .flag-icon {
@@ -320,8 +320,8 @@ body {
 }
 
 .btn-primary:hover {
-    background: #d16a1f;
-    border-color: #d16a1f;
+    background: #e64a2e;
+    border-color: #e64a2e;
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
 }
@@ -937,7 +937,7 @@ section {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--highlight-color);
-    box-shadow: 0 0 0 3px rgba(230, 126, 44, 0.1);
+    box-shadow: 0 0 0 3px rgba(255, 92, 64, 0.1);
 }
 
 .form-group textarea {
