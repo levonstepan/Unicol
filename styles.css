@@ -516,11 +516,11 @@ section {
 
 .applications-grid .application-card:nth-child(4) {
     grid-column: 2 / 3;
-    transform: translateX(calc(-50% - 1rem));
+    transform: translateX(calc(-100% - 1rem));
 }
 
 .applications-grid .application-card:nth-child(5) {
-    grid-column: 3 / 4;
+    grid-column: 2 / 3;
 }
 
 .application-card {
@@ -539,7 +539,7 @@ section {
 }
 
 .applications-grid .application-card:nth-child(4):hover {
-    transform: translateX(calc(-50% - 1rem)) translateY(-5px);
+    transform: translateX(calc(-100% - 1rem)) translateY(-5px);
 }
 
 .application-image {
