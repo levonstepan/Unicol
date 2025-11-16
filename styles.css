@@ -580,8 +580,12 @@ section {
 }
 
 .rd-content {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 3rem;
+    align-items: center;
 }
 
 .rd-title {
@@ -603,6 +607,18 @@ section {
     line-height: 1.8;
     margin-bottom: 1.5rem;
     opacity: 0.95;
+}
+
+.rd-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rd-belt-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* Sustainability Section */
@@ -854,6 +870,11 @@ section {
 
     .section-title {
         font-size: 2rem;
+    }
+
+    .rd-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 
     .contact-content {
