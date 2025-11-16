@@ -258,8 +258,22 @@ document.addEventListener('DOMContentLoaded', () => {
     // Add loading animation removal
     document.body.classList.add('loaded');
     
-    // Initialize Products section dynamic background
-    initProductsBackground();
+    // Initialize Products section dynamic background after libraries load
+    if (typeof jQuery !== 'undefined') {
+        jQuery(document).ready(function() {
+            // Wait a bit for all libraries to be fully loaded
+            setTimeout(function() {
+                initProductsBackground();
+            }, 100);
+        });
+    } else {
+        // Fallback: try again after window loads
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                initProductsBackground();
+            }, 500);
+        });
+    }
 });
 
 // Products Section Dynamic Background with Trianglify
@@ -267,6 +281,7 @@ function initProductsBackground() {
     // Check if jQuery and Trianglify are available
     if (typeof jQuery === 'undefined' || typeof Trianglify === 'undefined' || typeof Velocity === 'undefined') {
         console.warn('jQuery, Trianglify, or Velocity.js not loaded. Dynamic background disabled.');
+        console.log('jQuery:', typeof jQuery, 'Trianglify:', typeof Trianglify, 'Velocity:', typeof Velocity);
         return;
     }
 
@@ -276,9 +291,12 @@ function initProductsBackground() {
     var bg1 = $('#products-background-1');
     var bg2 = $('#products-background-2');
 
-    if (container.length === 0) {
+    if (container.length === 0 || productsSection.length === 0) {
+        console.warn('Products section or background container not found.');
         return;
     }
+
+    console.log('Initializing Products background...');
 
     // Set container and backgrounds to section height
     function setDimensions() {
