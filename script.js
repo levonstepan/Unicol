@@ -388,10 +388,14 @@ function initProductsBackground() {
 
     // Initialize dimensions and start animation
     setDimensions();
-    svgNew();
     
-    // Recreate svg every 5 seconds
-    window.setInterval(svgNew, 5000);
+    // Wait a moment for dimensions to be set, then start
+    setTimeout(function() {
+        svgNew();
+        
+        // Recreate svg every 5 seconds
+        window.setInterval(svgNew, 5000);
+    }, 200);
 
     // Handle window resize
     $(window).resize(function() {
