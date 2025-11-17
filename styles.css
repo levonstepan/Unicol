@@ -556,12 +556,11 @@ section {
 }
 
 .certification-card {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    background: white;
     border-radius: 12px;
     padding: 2rem;
     text-align: center;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%;
     margin-bottom: 1rem;
@@ -580,22 +579,22 @@ section {
 .certification-title {
     font-size: 1.125rem;
     font-weight: 600;
-    color: white;
+    color: var(--text-primary);
     margin: 0;
 }
 
 .btn-certification {
-    background: white;
-    color: var(--primary-color);
-    border-color: white;
+    background: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
     padding: 0.75rem 1.5rem;
     font-size: 0.9rem;
     margin-top: 0.5rem;
 }
 
 .btn-certification:hover {
-    background: rgba(255, 255, 255, 0.9);
-    color: var(--primary-color);
+    background: var(--secondary-color);
+    color: white;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
