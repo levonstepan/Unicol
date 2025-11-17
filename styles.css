@@ -301,6 +301,14 @@ body {
     opacity: 0.95;
 }
 
+.hero-description:first-of-type {
+    margin-bottom: 0.5rem;
+}
+
+.hero-description:last-of-type {
+    margin-bottom: 3rem;
+}
+
 .hero-buttons {
     display: flex;
     gap: 1rem;
