@@ -491,21 +491,65 @@ section {
 
 /* Certifications Section */
 .certifications {
-    background: var(--bg-light);
-    padding: 2.5rem 0;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    padding: 3rem 0;
 }
 
-.certifications-content {
-    max-width: 800px;
-    margin: 0 auto;
+.certifications .section-title {
+    color: white;
+}
+
+.certifications-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.certification-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    padding: 2rem;
     text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.certifications-text {
+.certification-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.certification-icon {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.certification-title {
     font-size: 1.125rem;
-    line-height: 1.8;
-    color: var(--text-secondary);
-    margin: 0;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.btn-certification {
+    background: white;
+    color: var(--primary-color);
+    border-color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+}
+
+.btn-certification:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: var(--primary-color);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Products Section */
@@ -1205,6 +1249,11 @@ section {
     }
 
     .workshops-features {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .certifications-grid {
         grid-template-columns: 1fr;
         gap: 1.5rem;
     }
