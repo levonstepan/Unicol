@@ -752,6 +752,11 @@ section {
     margin-right: auto;
 }
 
+.products-grid-full {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1400px;
+}
+
 .product-card {
     background: white;
     padding: 2rem;
@@ -760,6 +765,9 @@ section {
     transition: var(--transition);
     text-align: center;
     border: 1px solid var(--border-color);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
 
 .product-card:hover {
@@ -790,6 +798,8 @@ section {
 .product-description {
     color: var(--text-secondary);
     line-height: 1.6;
+    flex-grow: 1;
+    margin-top: 0.5rem;
 }
 
 .products-actions {
