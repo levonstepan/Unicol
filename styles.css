@@ -489,6 +489,25 @@ section {
     margin-bottom: 0;
 }
 
+/* Certifications Section */
+.certifications {
+    background: var(--bg-light);
+    padding: 2.5rem 0;
+}
+
+.certifications-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.certifications-text {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    margin: 0;
+}
+
 /* Products Section */
 .products {
     position: relative;
