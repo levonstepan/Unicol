@@ -553,6 +553,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
 }
 
 .certification-card {
@@ -564,6 +565,11 @@ section {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     width: 100%;
     margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 280px;
+    height: 100%;
 }
 
 .certification-card:hover {
@@ -576,12 +582,13 @@ section {
     width: auto;
     height: auto;
     max-height: 150px;
-    min-height: 100px;
+    min-height: 120px;
     object-fit: contain;
     margin-bottom: 1rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    flex-shrink: 0;
 }
 
 .certification-title {
@@ -589,6 +596,7 @@ section {
     font-weight: 600;
     color: var(--text-primary);
     margin: 0;
+    flex-shrink: 0;
 }
 
 .btn-certification {
