@@ -571,9 +571,13 @@ section {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
-.certification-icon {
-    font-size: 3.5rem;
+.certification-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: contain;
     margin-bottom: 1rem;
+    display: block;
 }
 
 .certification-title {
