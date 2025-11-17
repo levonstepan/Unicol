@@ -1104,19 +1104,9 @@ section {
         grid-template-columns: 1fr;
     }
 
-    .applications-grid .application-card:nth-child(4),
-    .applications-grid .application-card:nth-child(5) {
-        grid-column: 1 / 2;
-        transform: none;
-        left: 0;
-        margin-left: 0;
-        margin-right: 0;
-        justify-self: stretch;
-    }
-
-    .applications-grid .application-card:nth-child(4):hover,
-    .applications-grid .application-card:nth-child(5):hover {
-        transform: translateY(-5px);
+    .applications-grid-main,
+    .applications-grid-all {
+        grid-template-columns: 1fr;
     }
 
     .about-content {
