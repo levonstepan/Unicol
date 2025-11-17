@@ -494,6 +494,24 @@ section {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
     color: white;
     padding: 3rem 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.certifications-blob-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    z-index: 0;
+    pointer-events: none;
+}
+
+.certifications .container {
+    position: relative;
+    z-index: 1;
 }
 
 .certifications .section-title {
