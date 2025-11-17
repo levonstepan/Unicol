@@ -573,11 +573,15 @@ section {
 
 .certification-image {
     max-width: 100%;
+    width: auto;
     height: auto;
     max-height: 150px;
+    min-height: 100px;
     object-fit: contain;
     margin-bottom: 1rem;
     display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .certification-title {
