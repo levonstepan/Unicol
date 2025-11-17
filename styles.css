@@ -446,28 +446,28 @@ section {
     margin-bottom: 1.5rem;
 }
 
-.certified-icon {
-    font-size: 2.5rem;
+.certified-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: var(--highlight-color);
+    border-radius: 50%;
+    color: white;
     flex-shrink: 0;
 }
 
-.certified-text {
-    display: flex;
-    flex-direction: column;
-    gap: 0.25rem;
+.certified-badge svg {
+    width: 18px;
+    height: 18px;
 }
 
 .certified-label {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--primary-color);
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #6c757d;
     letter-spacing: 0.5px;
-}
-
-.certified-companies {
-    font-size: 0.95rem;
-    color: var(--text-secondary);
-    font-weight: 500;
 }
 
 .about-highlight h3 {
