@@ -616,6 +616,11 @@ section {
     margin-top: 3rem;
 }
 
+.applications-actions {
+    text-align: center;
+    margin-top: 3rem;
+}
+
 /* Applications Section */
 .applications {
     background: var(--bg-light);
