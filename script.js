@@ -314,9 +314,9 @@ const translations = {
         'footer.representative': 'Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչը Հայաստանում',
         'footer.contact': 'Կապ',
         'footer.legal': 'Իրավական',
-        'footer.privacy': 'Գաղտնիության Քաղաքականություն',
-        'footer.terms': 'Ծառայության Պայմաններ',
-        'footer.legalNotes': 'Իրավական Նշումներ',
+        'footer.privacy': 'Գաղտնիության քաղաքականություն',
+        'footer.terms': 'Ծառայության պայմաններ',
+        'footer.legalNotes': 'Իրավական նշումներ',
         'footer.copyright': '© 2025 Unicol Armenia - Roots LLC. Բոլոր իրավունքները պաշտպանված են:',
         'footer.madeWith': 'Ստեղծված է ❤️-ով Հայաստանում'
     }
