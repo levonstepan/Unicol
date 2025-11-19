@@ -311,7 +311,7 @@ const translations = {
         'contact.address': 'Վաղարշապատ, Տեր-Գաբրիելյան փողոց 20/1',
         
         // Footer
-        'footer.representative': 'Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչ Հայաստանում',
+        'footer.representative': 'Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչը Հայաստանում',
         'footer.contact': 'Կապ',
         'footer.legal': 'Իրավական',
         'footer.privacy': 'Գաղտնիության Քաղաքականություն',
