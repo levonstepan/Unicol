@@ -101,6 +101,7 @@ body {
     list-style: none;
     align-items: center;
     gap: 2rem;
+    margin-left: 2rem;
 }
 
 .nav-link {

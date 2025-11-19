@@ -223,10 +223,10 @@ const translations = {
     hy: {
         // Navigation
         'nav.home': 'Գլխավոր',
-        'nav.partnership': 'Գործընկերություն',
+        'nav.partnership': 'Մեր մասին',
         'nav.applications': 'Կիրառություններ',
         'nav.products': 'Ապրանքներ',
-        'nav.workshops': 'Վարպետություններ',
+        'nav.workshops': 'Վարպետաց դասեր',
         'nav.contact': 'Կապ',
         
         // Hero Section
@@ -364,13 +364,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const preferredLang = localStorage.getItem('preferredLanguage') || 'en'; // Default to English
     
     // Set active button
-    langButtons.forEach(button => {
-        if (button.getAttribute('data-lang') === preferredLang) {
-            button.classList.add('active');
-        } else {
-            button.classList.remove('active');
-        }
-    });
+        langButtons.forEach(button => {
+            if (button.getAttribute('data-lang') === preferredLang) {
+                button.classList.add('active');
+            } else {
+                button.classList.remove('active');
+            }
+        });
     
     // Translate page if not English
     if (preferredLang !== 'en') {
