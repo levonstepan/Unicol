@@ -231,9 +231,9 @@ const translations = {
         
         // Hero Section
         'hero.badge': '1977-ից • Իտալական Գերազանցություն',
-        'hero.title': 'Կապակցման Ուժ',
-        'hero.description1': 'Roots LLC - Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչ Հայաստանում:',
-        'hero.description2': 'Ձեր վստահելի գործընկերը բարձրորակ կապակցման լուծումների համար:',
+        'hero.title': 'Միացման ուժը',
+        'hero.description1': 'Roots LLC - Unicol արդյունաբերական սոսինձների',
+        'hero.description2': 'պաշտոնական ներկայացուցիչը Հայաստանում:',
         'hero.btnProducts': 'Բացահայտել Ապրանքները',
         'hero.btnContact': 'Կապ մեզ հետ',
         
