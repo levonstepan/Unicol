@@ -206,8 +206,7 @@ const translations = {
         'rd.text1': 'The beating heart of our company is the research and development division that, in our highly specialized internal laboratories, designs, tests, and develops new products and solutions to respond to market and customer requests.',
         'rd.text2': 'For this reason, we establish a direct relationship with our customers and external research institutes, thus creating always innovative and personalized formulas.',
         'rd.text3': 'Our technicians will be able to advise you best at all times, setting up production plants always in step with new technologies and your needs.',
-        'rd.btnContact': 'Contact Us',
-        'rd.btnLearnMore': 'Learn More About Our Innovation',
+        'rd.btnLearnMore': 'History and Facts',
         
         // Sustainability
         'sustainability.title': 'We Bond with the Environment',
@@ -294,8 +293,7 @@ const translations = {
         'rd.text1': 'Մեր ընկերության սրտի բաբախումը հետազոտությունների և զարգացման բաժինն է, որը մեր բարձր մասնագիտացված ներքին լաբորատորիաներում նախագծում, փորձարկում և զարգացնում է նոր արտադրանքներ և լուծումներ՝ արձագանքելու շուկայի և հաճախորդների խնդրանքներին:',
         'rd.text2': 'Այդ պատճառով մենք հաստատում ենք ուղղակի հարաբերություններ մեր հաճախորդների և արտաքին հետազոտական ինստիտուտների հետ, այդպիսով ստեղծելով միշտ նորարարական և անհատականացված բանաձևեր:',
         'rd.text3': 'Մեր տեխնիկները կկարողանան ամեն ժամանակ լավագույնս խորհրդատվություն տալ, կարգավորելով արտադրական գործարանները միշտ նոր տեխնոլոգիաների և ձեր կարիքների հետ համաժամանակ:',
-        'rd.btnContact': 'Կապ մեզ հետ',
-        'rd.btnLearnMore': 'Իմացեք Ավելին Մեր Նորարարության Մասին',
+        'rd.btnLearnMore': 'Պատմություն և փաստեր',
         
         // Sustainability
         'sustainability.title': 'Մենք Կապակցվում ենք Բնության հետ',
