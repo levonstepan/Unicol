@@ -176,16 +176,26 @@ const translations = {
         
         // Applications
         'applications.title': 'Applications',
+        'applications.pageTitle': 'All Applications',
+        'applications.pageSubtitle': 'Complete range of industrial adhesive applications',
         'applications.hardwood': 'Hard woods and assembly',
         'applications.veneer': 'Veneer panels',
+        'applications.edgeBanding': 'Edge banding',
         'applications.vacuum': '3D Vacuum press',
         'applications.curved': 'Curved panels',
+        'applications.kitchen': 'Kitchen counter tops',
+        'applications.auxiliary': 'Auxiliary products',
+        'applications.parquet': 'Parquette production and installation',
         'applications.seeMore': 'See More',
+        'applications.backHome': 'Back to Home',
         
         // Products
         'products.title': 'Our Products',
         'products.subtitle': 'Find the right adhesive for your needs',
+        'products.pageTitle': 'All Products',
+        'products.pageSubtitle': 'Complete range of industrial adhesives',
         'products.seeMore': 'See More',
+        'products.backHome': 'Back to Home',
         
         // Workshops
         'workshops.title': 'Workshops',
@@ -225,6 +235,7 @@ const translations = {
         
         // Footer
         'footer.representative': 'Official representative of Unicol industrial adhesives in Armenia',
+        'footer.quickLinks': 'Quick Links',
         'footer.contact': 'Contact',
         'footer.legal': 'Legal',
         'footer.privacy': 'Privacy Policy',
@@ -264,16 +275,26 @@ const translations = {
         
         // Applications
         'applications.title': 'Կիրառություններ',
+        'applications.pageTitle': 'Բոլոր Կիրառությունները',
+        'applications.pageSubtitle': 'Արդյունաբերական սոսինձների կիրառությունների ամբողջական տեսականի',
         'applications.hardwood': 'Փայտանյութի սոսնձում և հավաքման պրոցեսներ',
         'applications.veneer': 'Վենիրային վահանակներ',
+        'applications.edgeBanding': 'Եզրային երեսպատում',
         'applications.vacuum': '3D Վակուումային մամլիչ',
         'applications.curved': 'Կորացված/շերտավոր վահանակներ',
+        'applications.kitchen': 'Խոհանոցի հակառակ հատակներ',
+        'applications.auxiliary': 'Օժանդակ արտադրանքներ',
+        'applications.parquet': 'Պարկետի արտադրություն և տեղադրում',
         'applications.seeMore': 'Տեսնել ավելին',
+        'applications.backHome': 'Վերադառնալ Գլխավոր',
         
         // Products
         'products.title': 'Մեր Ապրանքները',
         'products.subtitle': 'Գտեք ձեր կարիքներին համապատասխան սոսինձ',
+        'products.pageTitle': 'Բոլոր Ապրանքները',
+        'products.pageSubtitle': 'Արդյունաբերական սոսինձների ամբողջական տեսականի',
         'products.seeMore': 'Տեսնել ավելին',
+        'products.backHome': 'Վերադառնալ Գլխավոր',
         
         // Workshops
         'workshops.title': 'Վարպետաց դասեր',
@@ -312,6 +333,7 @@ const translations = {
         
         // Footer
         'footer.representative': 'Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչը Հայաստանում',
+        'footer.quickLinks': 'Արագ Հղումներ',
         'footer.contact': 'Կապ',
         'footer.legal': 'Իրավական',
         'footer.privacy': 'Գաղտնիության քաղաքականություն',
@@ -362,13 +384,35 @@ function translatePage(lang) {
     // Update HTML lang attribute
     document.documentElement.lang = lang;
     
-    // Update page title and meta description
-    if (lang === 'hy') {
-        document.title = 'Unicol Հայաստան - Արդյունաբերական Սոսինձներ | Roots LLC';
-        document.querySelector('meta[name="description"]').setAttribute('content', 'Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչ Հայաստանում: Roots LLC - ձեր վստահելի գործընկերը բարձրորակ կապակցման լուծումների համար:');
+    // Update page title and meta description based on current page
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const metaDesc = document.querySelector('meta[name="description"]');
+    
+    if (currentPage === 'applications.html') {
+        if (lang === 'hy') {
+            document.title = 'Բոլոր Կիրառությունները - Unicol Հայաստան | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Unicol արդյունաբերական սոսինձների կիրառությունների ամբողջական տեսականի:');
+        } else {
+            document.title = 'All Applications - Unicol Armenia | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Complete range of industrial adhesive applications available from Unicol.');
+        }
+    } else if (currentPage === 'products.html') {
+        if (lang === 'hy') {
+            document.title = 'Բոլոր Ապրանքները - Unicol Հայաստան | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Unicol արդյունաբերական սոսինձների ամբողջական տեսականի Հայաստանում:');
+        } else {
+            document.title = 'All Products - Unicol Armenia | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Complete range of Unicol industrial adhesives products available in Armenia.');
+        }
     } else {
-        document.title = 'Unicol Armenia - Industrial Adhesives | Roots LLC';
-        document.querySelector('meta[name="description"]').setAttribute('content', 'Official representative of Unicol industrial adhesives in Armenia. Roots LLC - Your trusted partner for high-quality bonding solutions.');
+        // Default to index page
+        if (lang === 'hy') {
+            document.title = 'Unicol Հայաստան - Արդյունաբերական Սոսինձներ | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչ Հայաստանում: Roots LLC - ձեր վստահելի գործընկերը բարձրորակ կապակցման լուծումների համար:');
+        } else {
+            document.title = 'Unicol Armenia - Industrial Adhesives | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Official representative of Unicol industrial adhesives in Armenia. Roots LLC - Your trusted partner for high-quality bonding solutions.');
+        }
     }
 }
 
