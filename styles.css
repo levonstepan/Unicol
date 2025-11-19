@@ -1397,6 +1397,34 @@ section {
         width: 100%;
         text-align: center;
     }
+
+    .sustainability-image-container {
+        min-height: 500px;
+    }
+
+    .sustainability-overlay {
+        padding: 1rem;
+        overflow-y: auto;
+    }
+
+    .sustainability-text-background {
+        padding: 1.5rem;
+        max-width: 95%;
+    }
+
+    .sustainability-title {
+        font-size: 1.75rem;
+    }
+
+    .sustainability-subtitle {
+        font-size: 1.25rem;
+        margin-bottom: 1rem;
+    }
+
+    .sustainability-text {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
 }
 
 @media (max-width: 480px) {
@@ -1412,6 +1440,34 @@ section {
     .applications-grid,
     .workshops-features {
         grid-template-columns: 1fr;
+    }
+
+    .sustainability-image-container {
+        min-height: 450px;
+    }
+
+    .sustainability-overlay {
+        padding: 0.75rem;
+    }
+
+    .sustainability-text-background {
+        padding: 1rem;
+        max-width: 98%;
+    }
+
+    .sustainability-title {
+        font-size: 1.5rem;
+        margin-bottom: 0.25rem;
+    }
+
+    .sustainability-subtitle {
+        font-size: 1.1rem;
+        margin-bottom: 0.75rem;
+    }
+
+    .sustainability-text {
+        font-size: 0.9rem;
+        line-height: 1.5;
     }
 
     .applications-grid-main,
