@@ -284,7 +284,7 @@ const translations = {
         'applications.curved': 'Կորացված/շերտավոր վահանակներ',
         'applications.kitchen': 'Խոհանոցի հակառակ հատակներ',
         'applications.auxiliary': 'Օժանդակ արտադրանքներ',
-        'applications.parquet': 'Պարկետի արտադրություն և տեղադրում',
+        'applications.parquet': 'Պարկետների արտադրություն և տեղադրում',
         'applications.seeMore': 'Տեսնել ավելին',
         'applications.backHome': 'Վերադառնալ Գլխավոր',
         
