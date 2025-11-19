@@ -234,7 +234,7 @@ const translations = {
         'hero.title': 'Միացման ուժը',
         'hero.description1': 'Roots LLC - Unicol արդյունաբերական սոսինձների',
         'hero.description2': 'պաշտոնական ներկայացուցիչը Հայաստանում:',
-        'hero.btnProducts': 'Բացահայտել Ապրանքները',
+        'hero.btnProducts': 'Բացահայտել մեր արտադրանքը',
         'hero.btnContact': 'Կապ մեզ հետ',
         
         // About Section
