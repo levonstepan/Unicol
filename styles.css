@@ -306,6 +306,10 @@ body {
     opacity: 0.95;
 }
 
+.hero-description-3 {
+    display: none;
+}
+
 .hero-description:first-of-type {
     margin-bottom: 0.5rem;
 }

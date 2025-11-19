@@ -147,6 +147,7 @@ const translations = {
         'hero.title': 'The Power of Bonding',
         'hero.description1': 'Roots LLC - Official representative of Unicol industrial adhesives in Armenia.',
         'hero.description2': 'Your trusted partner for high-quality bonding solutions.',
+        'hero.description3': '',
         'hero.btnProducts': 'Discover Products',
         'hero.btnContact': 'Contact Us',
         
@@ -234,6 +235,7 @@ const translations = {
         'hero.title': 'Միացման ուժը',
         'hero.description1': 'Roots LLC - Unicol արդյունաբերական սոսինձների',
         'hero.description2': 'պաշտոնական ներկայացուցիչը Հայաստանում:',
+        'hero.description3': 'Ձեր վստահելի գործընկերը բարձրորակ կապակցման լուծումների համար:',
         'hero.btnProducts': 'Բացահայտել մեր արտադրանքը',
         'hero.btnContact': 'Կապ մեզ հետ',
         
@@ -325,6 +327,16 @@ function translatePage(lang) {
             element.textContent = translations[lang][key];
         }
     });
+    
+    // Show/hide third hero description based on language
+    const heroDesc3 = document.querySelector('.hero-description-3');
+    if (heroDesc3) {
+        if (lang === 'hy' && translations[lang]['hero.description3']) {
+            heroDesc3.style.display = 'block';
+        } else {
+            heroDesc3.style.display = 'none';
+        }
+    }
     
     // Update HTML lang attribute
     document.documentElement.lang = lang;
