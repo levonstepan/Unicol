@@ -282,7 +282,7 @@ const translations = {
         'applications.edgeBanding': 'Եզրային երեսպատում',
         'applications.vacuum': '3D Վակուումային մամլիչ',
         'applications.curved': 'Կորացված/շերտավոր վահանակներ',
-        'applications.kitchen': 'Խոհանոցի հակառակ հատակներ',
+        'applications.kitchen': 'Խոհանոցային սեղանների մակերեսներ',
         'applications.auxiliary': 'Օժանդակ արտադրանքներ',
         'applications.parquet': 'Պարկետների արտադրություն և տեղադրում',
         'applications.seeMore': 'Տեսնել ավելին',
