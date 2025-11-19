@@ -256,12 +256,12 @@ const translations = {
         'applications.veneer': 'Վենիրային վահանակներ',
         'applications.vacuum': '3D Վակուումային մամլիչ',
         'applications.curved': 'Կոր վահանակներ',
-        'applications.seeMore': 'Տեսնել Ավելին',
+        'applications.seeMore': 'Տեսնել ավելին',
         
         // Products
         'products.title': 'Մեր Ապրանքները',
         'products.subtitle': 'Գտեք ձեր կարիքներին համապատասխան սոսինձ',
-        'products.seeMore': 'Տեսնել Ավելին',
+        'products.seeMore': 'Տեսնել ավելին',
         
         // Workshops
         'workshops.title': 'Վարպետություններ',
