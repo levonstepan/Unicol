@@ -221,6 +221,7 @@ const translations = {
         'contact.emailLabel': 'Email',
         'contact.phoneLabel': 'Phone',
         'contact.addressLabel': 'Address',
+        'contact.address': '20/1 Ter-Gabrielyan Street, Vagharshapat',
         
         // Footer
         'footer.representative': 'Official representative of Unicol industrial adhesives in Armenia',
@@ -307,6 +308,7 @@ const translations = {
         'contact.emailLabel': 'Էլ. փոստ',
         'contact.phoneLabel': 'Հեռախոս',
         'contact.addressLabel': 'Հասցե',
+        'contact.address': 'Վաղարշապատ, Տեր-Գաբրիելյան փողոց 20/1',
         
         // Footer
         'footer.representative': 'Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչ Հայաստանում',
