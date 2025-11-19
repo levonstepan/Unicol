@@ -304,7 +304,7 @@ const translations = {
         // Contact
         'contact.title': 'Կապ մեզ հետ',
         'contact.subtitle': 'Կապ հաստատեք Roots LLC - Unicol Armenia-ի հետ',
-        'contact.representative': 'Unicol-ի պաշտոնական ներկայացուցիչ Հայաստանում',
+        'contact.representative': 'Unicol-ի պաշտոնական ներկայացուցիչը Հայաստանում',
         'contact.emailLabel': 'Էլ. փոստ',
         'contact.phoneLabel': 'Հեռախոս',
         'contact.addressLabel': 'Հասցե',
