@@ -264,10 +264,10 @@ const translations = {
         
         // Applications
         'applications.title': 'Կիրառություններ',
-        'applications.hardwood': 'Կարծր փայտ և հավաքում',
+        'applications.hardwood': 'Փայտանյութի սոսնձում և հավաքման պրոցեսներ',
         'applications.veneer': 'Վենիրային վահանակներ',
         'applications.vacuum': '3D Վակուումային մամլիչ',
-        'applications.curved': 'Կոր վահանակներ',
+        'applications.curved': 'Կորացված/շերտավոր վահանակներ',
         'applications.seeMore': 'Տեսնել ավելին',
         
         // Products
