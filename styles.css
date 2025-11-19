@@ -506,6 +506,12 @@ section {
     margin-bottom: 0;
 }
 
+/* Smaller font size for Armenian text in about section */
+[lang="hy"] .about-highlight p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
 /* Certifications Section */
 .certifications {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
