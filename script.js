@@ -286,7 +286,7 @@ const translations = {
         'applications.auxiliary': 'Օժանդակ արտադրանքներ',
         'applications.parquet': 'Պարկետների արտադրություն և տեղադրում',
         'applications.seeMore': 'Տեսնել ավելին',
-        'applications.backHome': 'Վերադառնալ Գլխավոր Էջ',
+        'applications.backHome': 'Վերադառնալ գլխավոր էջ',
         
         // Products
         'products.title': 'Մեր ապրանքները',
@@ -294,7 +294,7 @@ const translations = {
         'products.pageTitle': 'Բոլոր Ապրանքները',
         'products.pageSubtitle': 'Արդյունաբերական սոսինձների ամբողջական տեսականի',
         'products.seeMore': 'Տեսնել ավելին',
-        'products.backHome': 'Վերադառնալ Գլխավոր Էջ',
+        'products.backHome': 'Վերադառնալ գլխավոր էջ',
         
         // Workshops
         'workshops.title': 'Վարպետաց դասեր',
