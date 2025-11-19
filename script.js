@@ -289,7 +289,7 @@ const translations = {
         'applications.backHome': 'Վերադառնալ Գլխավոր Էջ',
         
         // Products
-        'products.title': 'Մեր Ապրանքները',
+        'products.title': 'Մեր ապրանքները',
         'products.subtitle': 'Գտեք ձեր կարիքներին համապատասխան սոսինձ',
         'products.pageTitle': 'Բոլոր Ապրանքները',
         'products.pageSubtitle': 'Արդյունաբերական սոսինձների ամբողջական տեսականի',
