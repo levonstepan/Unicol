@@ -318,6 +318,15 @@ body {
     margin-bottom: 3rem;
 }
 
+/* Reduce spacing between hero descriptions for Armenian version */
+[lang="hy"] .hero-description {
+    margin-bottom: 0.5rem;
+}
+
+[lang="hy"] .hero-description:last-of-type {
+    margin-bottom: 3rem;
+}
+
 .hero-buttons {
     display: flex;
     gap: 1rem;
