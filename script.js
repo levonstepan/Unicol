@@ -286,7 +286,7 @@ const translations = {
         'workshops.feature2.desc': 'Սովորեք փորձառու մասնագետներից',
         'workshops.feature3.title': 'Լավագույն Պրակտիկաներ',
         'workshops.feature3.desc': 'Արդյունաբերության մեջ ապացուցված տեխնիկաներ և մեթոդներ',
-        'workshops.btnContact': 'Կապ մեզ հետ՝ վելին իմանալու համար',
+        'workshops.btnContact': 'Ավելին իմանալու համար',
         
         // R&D Section
         'rd.title': 'ԳՀ և Նորարարություն',
