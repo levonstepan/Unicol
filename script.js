@@ -16,6 +16,18 @@ navLinks.forEach(link => {
     });
 });
 
+// Close mobile menu when clicking outside of it
+document.addEventListener('click', (e) => {
+    const isClickInsideMenu = navMenu.contains(e.target);
+    const isClickOnMenuButton = mobileMenuBtn.contains(e.target);
+    const isMenuActive = navMenu.classList.contains('active');
+    
+    if (isMenuActive && !isClickInsideMenu && !isClickOnMenuButton) {
+        navMenu.classList.remove('active');
+        mobileMenuBtn.classList.remove('active');
+    }
+});
+
 // Navbar scroll effect
 const navbar = document.getElementById('navbar');
 let lastScroll = 0;
