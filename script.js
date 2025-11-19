@@ -131,9 +131,215 @@ if (contactForm) {
     });
 }
 
-// Language Switcher (prepared for future Armenian implementation)
+// Translations object
+const translations = {
+    en: {
+        // Navigation
+        'nav.home': 'Home',
+        'nav.partnership': 'Partnership',
+        'nav.applications': 'Applications',
+        'nav.products': 'Products',
+        'nav.workshops': 'Workshops',
+        'nav.contact': 'Contact',
+        
+        // Hero Section
+        'hero.badge': 'Since 1977 • Italian Excellence',
+        'hero.title': 'The Power of Bonding',
+        'hero.description1': 'Roots LLC - Official representative of Unicol industrial adhesives in Armenia.',
+        'hero.description2': 'Your trusted partner for high-quality bonding solutions.',
+        'hero.btnProducts': 'Discover Products',
+        'hero.btnContact': 'Contact Us',
+        
+        // About Section
+        'about.title': 'About Unicol and Roots',
+        'about.text1': 'Unicol S.r.l. has been producing industrial adhesives in Italy since 1977. We offer a vast range of products capable of satisfying multiple requests from various industrial sectors such as wood processing, panels, construction, textile, and tissue.',
+        'about.certified': 'Certified Partnership',
+        'about.text2': 'Roots LLC is the official representative of Unicol products in Armenia, providing professional support, technical expertise, and reliable supply of high-quality industrial adhesives for the Armenian market.',
+        'about.text3': 'Beyond distribution, Roots, with its "Acobian Furniture" brand is one of Armenia\'s leading furniture manufacturers with decades of experience in precision woodworking, machinery automation, and modern production methods.',
+        
+        // Certifications
+        'certifications.title': 'Our Certifications',
+        'certifications.download': 'Download',
+        
+        // Applications
+        'applications.title': 'Applications',
+        'applications.hardwood': 'Hard woods and assembly',
+        'applications.veneer': 'Veneer panels',
+        'applications.vacuum': '3D Vacuum press',
+        'applications.curved': 'Curved panels',
+        'applications.seeMore': 'See More',
+        
+        // Products
+        'products.title': 'Our Products',
+        'products.subtitle': 'Find the right adhesive for your needs',
+        'products.seeMore': 'See More',
+        
+        // Workshops
+        'workshops.title': 'Workshops',
+        'workshops.subtitle': 'Professional training and technical support',
+        'workshops.text1': 'Roots LLC offers comprehensive workshops and training sessions to help you get the most out of Unicol industrial adhesives. Our expert technicians provide hands-on training covering product selection, application techniques, and best practices for optimal bonding results.',
+        'workshops.text2': 'Whether you\'re working with wood processing, panel manufacturing, or specialized applications, our workshops are designed to enhance your technical knowledge and improve your production efficiency.',
+        'workshops.feature1.title': 'Hands-On Training',
+        'workshops.feature1.desc': 'Practical sessions with real-world applications',
+        'workshops.feature2.title': 'Technical Expertise',
+        'workshops.feature2.desc': 'Learn from experienced professionals',
+        'workshops.feature3.title': 'Best Practices',
+        'workshops.feature3.desc': 'Industry-proven techniques and methods',
+        'workshops.btnContact': 'Contact Us for Workshops',
+        
+        // R&D Section
+        'rd.title': 'R&D and Innovation',
+        'rd.subtitle': 'Innovation Bonds',
+        'rd.text1': 'The beating heart of our company is the research and development division that, in our highly specialized internal laboratories, designs, tests, and develops new products and solutions to respond to market and customer requests.',
+        'rd.text2': 'For this reason, we establish a direct relationship with our customers and external research institutes, thus creating always innovative and personalized formulas.',
+        'rd.text3': 'Our technicians will be able to advise you best at all times, setting up production plants always in step with new technologies and your needs.',
+        'rd.btnContact': 'Contact Us',
+        'rd.btnLearnMore': 'Learn More About Our Innovation',
+        
+        // Sustainability
+        'sustainability.title': 'We Bond with the Environment',
+        'sustainability.subtitle': 'Quality Bonding and Environmental Respect',
+        'sustainability.text1': 'Unicol is committed to sustainability, not only environmental but also social - developing products that respect the environment while maintaining the highest quality standards. We invest in eco-friendly formulas, reducing solvents wherever possible and developing products with lower VOC emissions to minimize environmental impact.',
+        'sustainability.text2': 'Our production processes follow strict European standards, ensuring reduced waste, energy efficiency, and maximum safety for both workers and end users. Sustainability also means innovation: we design adhesives that extend product lifespan, reduce material waste, and support modern circular-economy principles.',
+        
+        // Contact
+        'contact.title': 'Contact Us',
+        'contact.subtitle': 'Get in touch with Roots LLC - Unicol Armenia',
+        'contact.representative': 'Official Representative of Unicol in Armenia',
+        'contact.emailLabel': 'Email',
+        'contact.phoneLabel': 'Phone',
+        'contact.addressLabel': 'Address',
+        
+        // Footer
+        'footer.representative': 'Official representative of Unicol industrial adhesives in Armenia',
+        'footer.contact': 'Contact',
+        'footer.legal': 'Legal',
+        'footer.privacy': 'Privacy Policy',
+        'footer.terms': 'Terms of Service',
+        'footer.legalNotes': 'Legal Notes',
+        'footer.copyright': '© 2025 Unicol Armenia - Roots LLC. All rights reserved.',
+        'footer.madeWith': 'Made with ❤️ in Armenia'
+    },
+    hy: {
+        // Navigation
+        'nav.home': 'Գլխավոր',
+        'nav.partnership': 'Գործընկերություն',
+        'nav.applications': 'Կիրառություններ',
+        'nav.products': 'Ապրանքներ',
+        'nav.workshops': 'Վարպետություններ',
+        'nav.contact': 'Կապ',
+        
+        // Hero Section
+        'hero.badge': '1977-ից • Իտալական Գերազանցություն',
+        'hero.title': 'Կապակցման Ուժ',
+        'hero.description1': 'Roots LLC - Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչ Հայաստանում:',
+        'hero.description2': 'Ձեր վստահելի գործընկերը բարձրորակ կապակցման լուծումների համար:',
+        'hero.btnProducts': 'Բացահայտել Ապրանքները',
+        'hero.btnContact': 'Կապ մեզ հետ',
+        
+        // About Section
+        'about.title': 'Unicol-ի և Roots-ի մասին',
+        'about.text1': 'Unicol S.r.l.-ը 1977 թվականից ի վեր արտադրում է արդյունաբերական սոսինձներ Իտալիայում: Մենք առաջարկում ենք արտադրանքի լայն տեսականի, որը կարող է բավարարել բազմաթիվ խնդրանքներ տարբեր արդյունաբերական ոլորտներից, ինչպիսիք են փայտամշակումը, վահանակները, շինարարությունը, տեքստիլը և հյուսվածքը:',
+        'about.certified': 'Հավաստագրված Գործընկերություն',
+        'about.text2': 'Roots LLC-ն Unicol արտադրանքի պաշտոնական ներկայացուցիչն է Հայաստանում, ապահովելով մասնագիտական աջակցություն, տեխնիկական փորձագիտություն և բարձրորակ արդյունաբերական սոսինձների հուսալի մատակարարում Հայաստանի շուկայի համար:',
+        'about.text3': 'Բաշխումից բացի, Roots-ը իր "Acobian Furniture" ապրանքանիշով Հայաստանի առաջատար կահույքի արտադրողներից մեկն է՝ տասնամյակների փորձառությամբ ճշգրիտ փայտամշակման, մեքենայացման ավտոմատացման և ժամանակակից արտադրական մեթոդների ոլորտում:',
+        
+        // Certifications
+        'certifications.title': 'Մեր Հավաստագրերը',
+        'certifications.download': 'Ներբեռնել',
+        
+        // Applications
+        'applications.title': 'Կիրառություններ',
+        'applications.hardwood': 'Կարծր փայտ և հավաքում',
+        'applications.veneer': 'Վենիրային վահանակներ',
+        'applications.vacuum': '3D Վակուումային մամլիչ',
+        'applications.curved': 'Կոր վահանակներ',
+        'applications.seeMore': 'Տեսնել Ավելին',
+        
+        // Products
+        'products.title': 'Մեր Ապրանքները',
+        'products.subtitle': 'Գտեք ձեր կարիքներին համապատասխան սոսինձ',
+        'products.seeMore': 'Տեսնել Ավելին',
+        
+        // Workshops
+        'workshops.title': 'Վարպետություններ',
+        'workshops.subtitle': 'Մասնագիտական վերապատրաստում և տեխնիկական աջակցություն',
+        'workshops.text1': 'Roots LLC-ն առաջարկում է համապարփակ վարպետություններ և վերապատրաստման նիստեր՝ օգնելու ձեզ առավելագույնս օգտագործել Unicol արդյունաբերական սոսինձները: Մեր փորձագետ տեխնիկները ապահովում են գործնական վերապատրաստում՝ ընդգրկելով արտադրանքի ընտրություն, կիրառման տեխնիկա և լավագույն պրակտիկաներ օպտիմալ կապակցման արդյունքների համար:',
+        'workshops.text2': 'Անկախ նրանից, թե դուք աշխատում եք փայտամշակման, վահանակների արտադրության կամ մասնագիտացված կիրառությունների հետ, մեր վարպետությունները նախագծված են ձեր տեխնիկական գիտելիքները բարելավելու և արտադրական արդյունավետությունը բարձրացնելու համար:',
+        'workshops.feature1.title': 'Գործնական Վերապատրաստում',
+        'workshops.feature1.desc': 'Գործնական նիստեր իրական աշխարհի կիրառություններով',
+        'workshops.feature2.title': 'Տեխնիկական Փորձագիտություն',
+        'workshops.feature2.desc': 'Սովորեք փորձառու մասնագետներից',
+        'workshops.feature3.title': 'Լավագույն Պրակտիկաներ',
+        'workshops.feature3.desc': 'Արդյունաբերության մեջ ապացուցված տեխնիկաներ և մեթոդներ',
+        'workshops.btnContact': 'Կապ մեզ հետ Վարպետությունների համար',
+        
+        // R&D Section
+        'rd.title': 'ԳՀ և Նորարարություն',
+        'rd.subtitle': 'Նորարարական Կապեր',
+        'rd.text1': 'Մեր ընկերության սրտի բաբախումը հետազոտությունների և զարգացման բաժինն է, որը մեր բարձր մասնագիտացված ներքին լաբորատորիաներում նախագծում, փորձարկում և զարգացնում է նոր արտադրանքներ և լուծումներ՝ արձագանքելու շուկայի և հաճախորդների խնդրանքներին:',
+        'rd.text2': 'Այդ պատճառով մենք հաստատում ենք ուղղակի հարաբերություններ մեր հաճախորդների և արտաքին հետազոտական ինստիտուտների հետ, այդպիսով ստեղծելով միշտ նորարարական և անհատականացված բանաձևեր:',
+        'rd.text3': 'Մեր տեխնիկները կկարողանան ամեն ժամանակ լավագույնս խորհրդատվություն տալ, կարգավորելով արտադրական գործարանները միշտ նոր տեխնոլոգիաների և ձեր կարիքների հետ համաժամանակ:',
+        'rd.btnContact': 'Կապ մեզ հետ',
+        'rd.btnLearnMore': 'Իմացեք Ավելին Մեր Նորարարության Մասին',
+        
+        // Sustainability
+        'sustainability.title': 'Մենք Կապակցվում ենք Բնության հետ',
+        'sustainability.subtitle': 'Որակյալ Կապակցում և Բնապահպանական Հարգանք',
+        'sustainability.text1': 'Unicol-ը նվիրված է կայունությանը, ոչ միայն բնապահպանական, այլև սոցիալական՝ զարգացնելով արտադրանքներ, որոնք հարգում են բնությունը՝ պահպանելով բարձրագույն որակի չափանիշները: Մենք ներդնում ենք էկոլոգիապես մաքուր բանաձևեր, նվազեցնելով լուծիչները, որտեղ հնարավոր է, և զարգացնելով արտադրանքներ ավելի ցածր VOC արտանետումներով՝ բնապահպանական ազդեցությունը նվազագույնի հասցնելու համար:',
+        'sustainability.text2': 'Մեր արտադրական գործընթացները հետևում են խիստ եվրոպական չափանիշներին՝ ապահովելով նվազեցված թափոններ, էներգաարդյունավետություն և առավելագույն անվտանգություն ինչպես աշխատողների, այնպես էլ վերջնական օգտագործողների համար: Կայունությունը նաև նշանակում է նորարարություն. մենք նախագծում ենք սոսինձներ, որոնք երկարացնում են արտադրանքի կյանքի տևողությունը, նվազեցնում նյութական թափոնները և աջակցում ժամանակակից շրջանաձև տնտեսության սկզբունքներին:',
+        
+        // Contact
+        'contact.title': 'Կապ մեզ հետ',
+        'contact.subtitle': 'Կապ հաստատեք Roots LLC - Unicol Armenia-ի հետ',
+        'contact.representative': 'Unicol-ի պաշտոնական ներկայացուցիչ Հայաստանում',
+        'contact.emailLabel': 'Էլ. փոստ',
+        'contact.phoneLabel': 'Հեռախոս',
+        'contact.addressLabel': 'Հասցե',
+        
+        // Footer
+        'footer.representative': 'Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչ Հայաստանում',
+        'footer.contact': 'Կապ',
+        'footer.legal': 'Իրավական',
+        'footer.privacy': 'Գաղտնիության Քաղաքականություն',
+        'footer.terms': 'Ծառայության Պայմաններ',
+        'footer.legalNotes': 'Իրավական Նշումներ',
+        'footer.copyright': '© 2025 Unicol Armenia - Roots LLC. Բոլոր իրավունքները պաշտպանված են:',
+        'footer.madeWith': 'Ստեղծված է ❤️-ով Հայաստանում'
+    }
+};
+
+// Language Switcher
+let currentLanguage = 'en'; // Default language is English
+
 const langButtons = document.querySelectorAll('.lang-btn');
 
+// Function to translate the page
+function translatePage(lang) {
+    currentLanguage = lang;
+    const elements = document.querySelectorAll('[data-i18n]');
+    
+    elements.forEach(element => {
+        const key = element.getAttribute('data-i18n');
+        if (translations[lang] && translations[lang][key]) {
+            element.textContent = translations[lang][key];
+        }
+    });
+    
+    // Update HTML lang attribute
+    document.documentElement.lang = lang;
+    
+    // Update page title and meta description
+    if (lang === 'hy') {
+        document.title = 'Unicol Հայաստան - Արդյունաբերական Սոսինձներ | Roots LLC';
+        document.querySelector('meta[name="description"]').setAttribute('content', 'Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչ Հայաստանում: Roots LLC - ձեր վստահելի գործընկերը բարձրորակ կապակցման լուծումների համար:');
+    } else {
+        document.title = 'Unicol Armenia - Industrial Adhesives | Roots LLC';
+        document.querySelector('meta[name="description"]').setAttribute('content', 'Official representative of Unicol industrial adhesives in Armenia. Roots LLC - Your trusted partner for high-quality bonding solutions.');
+    }
+}
+
+// Language button click handlers
 langButtons.forEach(button => {
     button.addEventListener('click', (e) => {
         e.preventDefault();
@@ -145,33 +351,30 @@ langButtons.forEach(button => {
         // Add active class to clicked button
         button.classList.add('active');
         
+        // Translate the page
+        translatePage(lang);
+        
         // Store language preference
         localStorage.setItem('preferredLanguage', lang);
-        
-        // Update HTML lang attribute
-        document.documentElement.lang = lang;
-        
-        // For now, just log the language change
-        // In the future, this will load the Armenian version
-        if (lang === 'hy') {
-            console.log('Armenian version coming soon!');
-            // TODO: Implement language switching
-        }
     });
 });
 
 // Load preferred language on page load
 document.addEventListener('DOMContentLoaded', () => {
-    const preferredLang = localStorage.getItem('preferredLanguage');
-    if (preferredLang) {
-        langButtons.forEach(button => {
-            if (button.getAttribute('data-lang') === preferredLang) {
-                button.classList.add('active');
-                document.documentElement.lang = preferredLang;
-            } else {
-                button.classList.remove('active');
-            }
-        });
+    const preferredLang = localStorage.getItem('preferredLanguage') || 'en'; // Default to English
+    
+    // Set active button
+    langButtons.forEach(button => {
+        if (button.getAttribute('data-lang') === preferredLang) {
+            button.classList.add('active');
+        } else {
+            button.classList.remove('active');
+        }
+    });
+    
+    // Translate page if not English
+    if (preferredLang !== 'en') {
+        translatePage(preferredLang);
     }
 });
 
