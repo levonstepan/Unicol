@@ -196,6 +196,15 @@ const translations = {
         'products.pageSubtitle': 'Complete range of industrial adhesives',
         'products.seeMore': 'See More',
         'products.backHome': 'Back to Home',
+        'products.nunivil1000': '<strong>FOR LAMINATION</strong><br>Vinyl dispersion D3, used for the hot and cold lamination of wood-based products with paper. It is suitable for Class D4 bonding, used with a hardener.<br><br><strong>Packaging:</strong> 25 kg bucket, 1000 kg tank<br><br>• Class D3<br>• Resistant to water, solvents and temperature<br>• Medium-high viscosity',
+        'products.unibord694': '<strong>FOR SOFT-FORMING</strong><br>EVA hot melt adhesive for soft-forming is used for gluing solid wood and plastic laminate edges with automatic edge banding machines.<br><br><strong>Packaging:</strong> 25 kg bag<br><br>• Natural<br>• For soft-forming',
+        'products.resina401': '<strong>UREA-BASED GLUE</strong><br>Urea-based glue in powder form, self-hardening, with high yield, excellent solubility, high specific adhesion and low exudation. For the production of Class E1 panels.<br><br><strong>Packaging:</strong> 25 kg bag<br><br>• For class E1 articles<br>• Self-hardening<br>• High yield<br>• Low exudation<br>• For hot and high-frequency presses',
+        'products.nunipur7031': '<strong>SINGLE COMPONENT</strong><br>Water-based single-component polyurethane glue for gluing PVC sheets with membrane press (3D).<br><br>• Single-component<br>• For PVC<br>• For 3D membrane press',
+        'products.nunivil165': '<strong>TRANSPARENT</strong><br>Vinyl dispersion, with very fast setting; when assembling furniture, it allows you to remove the clamp after just a short time.<br><br><strong>Packaging:</strong> 25 kg bucket, 1000 kg tank<br><br>• Transparent<br>• Ultra-fast setting',
+        'products.unipren1070': '<strong>CONTACT ADHESIVE</strong><br>Contact adhesive for spatula application.<br><br><strong>Packaging:</strong> box of 12 tins x 1.75 kg, 24 tins x 0.85 kg',
+        'products.nunivil25': '<strong>FOR HARD WOODS</strong><br>Vinyl dispersion specifically for bonding hard and resinous woods. It is popular due to its fast bonding and transparent glue line. Tested by the CATAS laboratory for the production of chairs (CREEP TEST).<br><br><strong>Packaging:</strong> 25 kg bucket, 1000 kg tank<br><br>• For hard woods<br>• High penetration in wood<br>• Transparent<br>• For the production of chairs and tables',
+        'products.unibord607m': '<strong>SEMI-TRANSPARENT</strong><br>EVA-based hot melt adhesive, featuring excellent specific adhesion, allows you to obtain a virtually seamless glue line. The melting speed, low viscosity and open time make this product extremely versatile.<br><br><strong>Packaging:</strong> 25 kg bag<br><br>• Semi-transparent<br>• Excellent adhesion<br>• High yield',
+        'products.unibord625': '<strong>TRANSPARENT</strong><br>EVA transparent hot melt glue for automatic edge banding machines, with high yield, good resistance to water and solvents. Used to glue edges in solid wood, polyester, melamine and plastic laminate, treated with PVC and ABS. Suitable for soft-forming and for BAZ machining centres.<br><br><strong>Packaging:</strong> 20 kg bag<br><br>• Transparent<br>• For soft-forming and BAZ as well',
         
         // Workshops
         'workshops.title': 'Workshops',
@@ -295,6 +304,15 @@ const translations = {
         'products.pageSubtitle': 'Արդյունաբերական սոսինձների ամբողջական տեսականի',
         'products.seeMore': 'Տեսնել ավելին',
         'products.backHome': 'Վերադառնալ գլխավոր էջ',
+        'products.nunivil1000': '<strong>ԼԱՄԻՆԱՑԻԱՅԻ ՀԱՄԱՐ</strong><br>Ջրային հիմքով վինիլային դիսպերսիոն սոսինձ (D3 դաս), նախատեսված փայտային հիմքով արտադրանքների՝ թղթով (paper) տաք և սառը լամինացման համար։ Հարմար է նաև D4 դասի սոսնձման համար՝ կոփիչով կիրառման դեպքում։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարրա, 1000 կգ տարրա<br><br>• D3 դաս<br>• Բարձր դիմացկունություն ջրի, լուծիչների և ջերմաստիճանի նկատմամբ<br>• Միջին-բարձր մածուցիկություն',
+        'products.unibord694': '<strong>ՓԱՓԿԱՍԵՐՅԱԿ (SOFT-FORMING) ՀԱՄԱՐ</strong><br>EVA հիմքով տաք հալվող սոսինձ՝ նախատեսված փայտի և պլաստիկ լամինատի եզրաշերտերի ավտոմատ ծածկման համար՝ soft-forming տեխնոլոգիայով։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարրա<br><br>• Բնական բաղադրություն<br>• Soft-forming կիրառման համար',
+        'products.resina401': '<strong>ՅՈՒՐԵԱՅԻ ՀԻՄՔՈՎ ՍՈՍԻՆՁ</strong><br>Փոշեյին յուրեայի հիմքով սոսինձ՝ ինքնակոփում, բարձր արտադրողականություն, գերազանց լուծելիություն, հատուկ կպչունություն և ցածր արտահոսք։ Օգտագործվում է E1 դասի սալերի արտադրության մեջ։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարրա<br><br>• E1 դասի արտադրատեսակների համար<br>• Ինքնակոփում<br>• Բարձր արտադրողականություն<br>• Ցածր արտահոսք<br>• Հարմար տաք և բարձր հաճախականությամբ մամլիչների համար',
+        'products.nunipur7031': '<strong>ՄԻԱՅՆԱԲԱՂԱԴՐՈՂ</strong><br>Ջրային հիմքով միաբաղադրիչ պոլիուրեթանային սոսինձ՝ նախատեսված PVC թաղանթների համար՝ մեմբրանային մամլիչներով (3D)։<br><br>• Միայնաբաղադրիչ<br>• PVC-ի համար<br>• 3D մեմբրանային մամլիչների համար',
+        'products.nunivil165': '<strong>ԹԱՓԱՆԿ</strong><br>Վինիլային դիսպերսիոն սոսինձ շատ արագ կոփմամբ․ կահույքի հավաքման դեպքում թղթապնակների սեղմակները հնարավոր է հեռացնել կարճ ժամանակում։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարրա, 1000 կգ տարրա<br><br>• Թափանցիկ<br>• Սուպեր արագ կոփում',
+        'products.unipren1070': '<strong>ԿՈՆՏԱԿՏԱՅԻՆ ՍՈՍԻՆՁ</strong><br>Կոնտակտային սոսինձ՝ նախատեսված սպաթուլայով (spatula) կիրառման համար։<br><br><strong>Փաթեթավորում․</strong> 12 տարրա × 1.75 կգ, 24 տարրա × 0.85 կգ',
+        'products.nunivil25': '<strong>ԿՈՇՏ ՓԱՅՏԵՐԻ ՀԱՄԱՐ</strong><br>Վինիլային դիսպերսիոն սոսինձ՝ հատուկ կոշտ և խեժային փայտատեսակների սոսնձման համար։ Գնահատված է իր արագ կապով և թափանցիկ սոսնձագծով։ Ստուգված է CATAS լաբորատորիայում՝ աթոռների արտադրության համար (CREEP TEST)։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարրա, 1000 կգ տարրա<br><br>• Կոշտ փայտերի համար<br>• Բարձր ներթափանցում փայտի մեջ<br>• Թափանցիկ<br>• Հարմար աթոռների և սեղանների արտադրության համար',
+        'products.unibord607m': '<strong>ԿԵՍԱԹԱՓԱՆԿ</strong><br>EVA հիմքով տաք հալվող սոսինձ՝ բարձր կպչունությամբ և գրեթե անտեսանելի սոսնձագծով։ Արագ հալում, ցածր մածուցիկություն և երկար բաց ժամանակ՝ բազմաֆունկցիոնալ կիրառման համար։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարրա<br><br>• Կեսաթափանցիկ<br>• Բարձր կպչունություն<br>• Բարձր արտադրողականություն',
+        'products.unibord625': '<strong>ԹԱՓԱՆԿ</strong><br>Թափանցիկ EVA տաք հալվող սոսինձ՝ եզրագոտիների ավտոմատ սոսնձման համար, բարձր արտադրողականություն, ջրի և լուծիչների նկատմամբ դիմացկուն։ Հարմար փայտի, պոլիեսթերի, մելամինի, պլաստիկի, PVC և ABS եզրաշերտերի համար։ Հարմար է soft-forming և BAZ կենտրոնների (մեքենաներ CNC) համար։<br><br><strong>Փաթեթավորում․</strong> 20 կգ տարրա<br><br>• Թափանցիկ<br>• Soft-forming և BAZ կենտրոնների համար',
         
         // Workshops
         'workshops.title': 'Վարպետաց դասեր',
@@ -357,7 +375,12 @@ function translatePage(lang) {
     elements.forEach(element => {
         const key = element.getAttribute('data-i18n');
         if (translations[lang] && translations[lang][key]) {
-            element.textContent = translations[lang][key];
+            // Use innerHTML for product descriptions to preserve HTML formatting
+            if (element.classList.contains('product-description')) {
+                element.innerHTML = translations[lang][key];
+            } else {
+                element.textContent = translations[lang][key];
+            }
         }
     });
     
