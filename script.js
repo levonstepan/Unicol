@@ -263,6 +263,9 @@ const translations = {
         'privacy.dataCollectionText': 'We do not use cookies for tracking purposes, and we do not share any information with third parties. Any information you voluntarily provide through contact forms or email communications is used solely for the purpose of responding to your inquiries.',
         'privacy.contactInfo': 'Contact Information',
         'privacy.contactInfoText': 'If you have any questions about this privacy policy, please contact us at:',
+        'privacy.contactEmail': 'Email: info@roots.am',
+        'privacy.contactPhone': 'Phone: +374 91 665520',
+        'privacy.contactAddress': 'Address: 20/1 Ter-Gabrielyan Street, Vagharshapat, Armenia',
         'privacy.backHome': '← Back to Home',
         
         // Terms of Service
@@ -408,12 +411,15 @@ const translations = {
         'privacy.title': 'Գաղտնիության Քաղաքականություն',
         'privacy.subtitle': 'Ինչպես ենք մենք վերաբերվում ձեր տեղեկատվությանը',
         'privacy.lastUpdated': 'Վերջին թարմացում:',
-        'privacy.commitment': 'Մեր նվիրվածությունը գաղտնիությանը',
-        'privacy.commitmentText': 'Unicol Հայաստանում (Roots LLC) մենք հարգում ենք ձեր գաղտնիությունը: Այս կայքը չի հավաքում, չի պահում կամ չի մշակում այցելուներից անձնական տվյալներ:',
+        'privacy.commitment': 'Գաղտնիությունը մեզ համար',
+        'privacy.commitmentText': 'Մենք հարգում ենք ձեր գաղտնիությունը․ այս կայքը չի հավաքում, չի պահում կամ չի մշակում այցելուներից անձնական տվյալներ:',
         'privacy.dataCollection': 'Տվյալների Հավաքագրում',
-        'privacy.dataCollectionText': 'Մենք չենք օգտագործում cookies հետևման նպատակով և չենք կիսվում որևէ տեղեկատվությամբ երրորդ կողմերի հետ: Կոնտակտային ձևերի կամ էլեկտրոնային փոստի հաղորդագրությունների միջոցով կամավոր տրամադրած ցանկացած տեղեկատվություն օգտագործվում է բացառապես ձեր հարցումներին պատասխանելու նպատակով:',
+        'privacy.dataCollectionText': 'Մենք չենք օգտագործում cookies  և չենք կիսվում որևէ տեղեկատվությամբ երրորդ կողմերի հետ: Կոնտակտային ձևերի կամ էլեկտրոնային փոստի հաղորդագրությունների միջոցով կամավոր տրամադրած ցանկացած տեղեկատվություն օգտագործվում է բացառապես ձեր հարցումներին պատասխանելու նպատակով:',
         'privacy.contactInfo': 'Կոնտակտային Տեղեկատվություն',
         'privacy.contactInfoText': 'Եթե ունեք հարցեր այս գաղտնիության քաղաքականության վերաբերյալ, խնդրում ենք կապ հաստատել մեզ հետ:',
+        'privacy.contactEmail': 'Էլ. փոստ info@roots.am',
+        'privacy.contactPhone': 'Հեռախոս +374 91 665520',
+        'privacy.contactAddress': 'Հասցե Վաղարշապատ, Տեր-Գաբրիելյան փողոց 20/1',
         'privacy.backHome': '← Վերադառնալ գլխավոր էջ',
         
         // Terms of Service
