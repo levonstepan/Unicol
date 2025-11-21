@@ -251,7 +251,51 @@ const translations = {
         'footer.terms': 'Terms of Service',
         'footer.legalNotes': 'Legal Notes',
         'footer.copyright': '© 2025 Unicol Armenia - Roots LLC. All rights reserved.',
-        'footer.madeWith': 'Made with ❤️ in Armenia'
+        'footer.madeWith': 'Made with ❤️ in Armenia',
+        
+        // Privacy Policy
+        'privacy.title': 'Privacy Policy',
+        'privacy.subtitle': 'How we handle your information',
+        'privacy.lastUpdated': 'Last Updated:',
+        'privacy.commitment': 'Our Commitment to Privacy',
+        'privacy.commitmentText': 'At Unicol Armenia (Roots LLC), we respect your privacy. This website does not collect, store, or process any personal data from visitors.',
+        'privacy.dataCollection': 'Data Collection',
+        'privacy.dataCollectionText': 'We do not use cookies for tracking purposes, and we do not share any information with third parties. Any information you voluntarily provide through contact forms or email communications is used solely for the purpose of responding to your inquiries.',
+        'privacy.contactInfo': 'Contact Information',
+        'privacy.contactInfoText': 'If you have any questions about this privacy policy, please contact us at:',
+        'privacy.backHome': '← Back to Home',
+        
+        // Terms of Service
+        'terms.title': 'Terms of Service',
+        'terms.subtitle': 'Terms and conditions for using our website',
+        'terms.lastUpdated': 'Last Updated:',
+        'terms.agreement': 'Agreement to Terms',
+        'terms.agreementText': 'By accessing and using this website, you agree to comply with and be bound by the following terms and conditions.',
+        'terms.useOfWebsite': 'Use of Website',
+        'terms.useOfWebsiteText': 'This website is provided for informational purposes only. The content is subject to change without notice. You may use this website for lawful purposes only and in accordance with these Terms of Service.',
+        'terms.intellectualProperty': 'Intellectual Property',
+        'terms.intellectualPropertyText': 'All content, including text, images, logos, and other materials on this website, is the property of Unicol Armenia and Roots LLC and is protected by copyright laws. You may not reproduce, distribute, or use any content from this website without prior written permission.',
+        'terms.limitation': 'Limitation of Liability',
+        'terms.limitationText': 'We are not liable for any damages arising from the use of this website or the information contained herein. The information on this website is provided "as is" without warranty of any kind.',
+        'terms.contactUs': 'Contact Us',
+        'terms.contactUsText': 'If you have any questions about these Terms of Service, please contact us at:',
+        'terms.backHome': '← Back to Home',
+        
+        // Legal Notes
+        'legal.title': 'Legal Notes',
+        'legal.subtitle': 'Important legal information about our company',
+        'legal.companyInfo': 'Company Information',
+        'legal.companyName': 'Company Name:',
+        'legal.representative': 'Representative:',
+        'legal.representativeText': 'Official representative of Unicol S.r.l. in Armenia',
+        'legal.representation': 'Representation',
+        'legal.representationText': 'Roots LLC is the official and exclusive representative of Unicol S.r.l. in Armenia. The supply of Unicol industrial adhesives and bonding solutions in Armenia is carried out by Roots LLC.',
+        'legal.brandInfo': 'Brand Information',
+        'legal.brandInfoText': 'Roots LLC is represented in the market by the Acobian Furniture brand. Acobian is the brand name, while Roots is the company name. Beyond distribution, Roots, with its "Acobian Furniture" brand, is one of Armenia\'s leading furniture manufacturers with decades of experience in precision woodworking, machinery automation, and modern production methods.',
+        'legal.disclaimer': 'Disclaimer',
+        'legal.disclaimerText': 'Product specifications and information are subject to change. Please contact us for the most current information regarding our products and services. All product images and descriptions are for illustrative purposes only.',
+        'legal.unicolInfo': 'Unicol S.r.l. is an Italian company that has been producing industrial adhesives since 1977. The company offers a vast range of products capable of satisfying multiple requests from various industrial sectors such as wood processing, panels, construction, textile, and tissue. With over 45 years of experience, Unicol has distribution in many countries and offers a wide catalogue of high-quality bonding solutions.',
+        'legal.backHome': '← Back to Home'
     },
     hy: {
         // Navigation
@@ -358,7 +402,51 @@ const translations = {
         'footer.terms': 'Ծառայության պայմաններ',
         'footer.legalNotes': 'Իրավական նշումներ',
         'footer.copyright': '© 2025 Unicol Armenia - Roots LLC. Բոլոր իրավունքները պաշտպանված են:',
-        'footer.madeWith': 'Ստեղծված է ❤️-ով Հայաստանում'
+        'footer.madeWith': 'Ստեղծված է ❤️-ով Հայաստանում',
+        
+        // Privacy Policy
+        'privacy.title': 'Գաղտնիության Քաղաքականություն',
+        'privacy.subtitle': 'Ինչպես ենք մենք վերաբերվում ձեր տեղեկատվությանը',
+        'privacy.lastUpdated': 'Վերջին թարմացում:',
+        'privacy.commitment': 'Մեր նվիրվածությունը գաղտնիությանը',
+        'privacy.commitmentText': 'Unicol Հայաստանում (Roots LLC) մենք հարգում ենք ձեր գաղտնիությունը: Այս կայքը չի հավաքում, չի պահում կամ չի մշակում այցելուներից անձնական տվյալներ:',
+        'privacy.dataCollection': 'Տվյալների Հավաքագրում',
+        'privacy.dataCollectionText': 'Մենք չենք օգտագործում cookies հետևման նպատակով և չենք կիսվում որևէ տեղեկատվությամբ երրորդ կողմերի հետ: Կոնտակտային ձևերի կամ էլեկտրոնային փոստի հաղորդագրությունների միջոցով կամավոր տրամադրած ցանկացած տեղեկատվություն օգտագործվում է բացառապես ձեր հարցումներին պատասխանելու նպատակով:',
+        'privacy.contactInfo': 'Կոնտակտային Տեղեկատվություն',
+        'privacy.contactInfoText': 'Եթե ունեք հարցեր այս գաղտնիության քաղաքականության վերաբերյալ, խնդրում ենք կապ հաստատել մեզ հետ:',
+        'privacy.backHome': '← Վերադառնալ գլխավոր էջ',
+        
+        // Terms of Service
+        'terms.title': 'Ծառայության Պայմաններ',
+        'terms.subtitle': 'Մեր կայքը օգտագործելու պայմաններ և կանոններ',
+        'terms.lastUpdated': 'Վերջին թարմացում:',
+        'terms.agreement': 'Պայմանների Համաձայնություն',
+        'terms.agreementText': 'Այս կայք մուտք գործելով և օգտագործելով, դուք համաձայնում եք հետևել և պարտավորվում եք հետևյալ պայմաններին և կանոններին:',
+        'terms.useOfWebsite': 'Կայքի Օգտագործում',
+        'terms.useOfWebsiteText': 'Այս կայքը տրամադրվում է բացառապես տեղեկատվական նպատակներով: Բովանդակությունը կարող է փոխվել առանց նախապես ծանուցման: Դուք կարող եք օգտագործել այս կայքը միայն օրինական նպատակներով և այս Ծառայության Պայմաններին համապատասխան:',
+        'terms.intellectualProperty': 'Ինտելեկտուալ Սեփականություն',
+        'terms.intellectualPropertyText': 'Այս կայքի բոլոր բովանդակությունը, ներառյալ տեքստը, պատկերները, լոգոները և այլ նյութերը, Unicol Հայաստանի և Roots LLC-ի սեփականությունն են և պաշտպանված են հեղինակային իրավունքների օրենքներով: Դուք չեք կարող վերարտադրել, տարածել կամ օգտագործել այս կայքի որևէ բովանդակություն առանց նախապես գրավոր թույլտվության:',
+        'terms.limitation': 'Պատասխանատվության Սահմանափակում',
+        'terms.limitationText': 'Մենք պատասխանատվություն չենք կրում այս կայքը կամ դրա մեջ պարունակվող տեղեկատվությունը օգտագործելուց առաջացած որևէ վնասի համար: Այս կայքի տեղեկատվությունը տրամադրվում է "ինչպես կա"՝ առանց որևէ երաշխիքի:',
+        'terms.contactUs': 'Կապ Մեզ Հետ',
+        'terms.contactUsText': 'Եթե ունեք հարցեր այս Ծառայության Պայմանների վերաբերյալ, խնդրում ենք կապ հաստատել մեզ հետ:',
+        'terms.backHome': '← Վերադառնալ գլխավոր էջ',
+        
+        // Legal Notes
+        'legal.title': 'Իրավական Նշումներ',
+        'legal.subtitle': 'Կարևոր իրավական տեղեկատվություն մեր ընկերության մասին',
+        'legal.companyInfo': 'Ընկերության Տեղեկատվություն',
+        'legal.companyName': 'Ընկերության Անվանում:',
+        'legal.representative': 'Ներկայացուցիչ:',
+        'legal.representativeText': 'Unicol S.r.l.-ի պաշտոնական ներկայացուցիչը Հայաստանում',
+        'legal.representation': 'Ներկայացում',
+        'legal.representationText': 'Roots LLC-ն Unicol S.r.l.-ի պաշտոնական և բացառիկ ներկայացուցիչն է Հայաստանում: Unicol արդյունաբերական սոսինձների և կապակցման լուծումների մատակարարումը Հայաստանում իրականացվում է Roots LLC-ի կողմից:',
+        'legal.brandInfo': 'Ապրանքանիշի Տեղեկատվություն',
+        'legal.brandInfoText': 'Roots LLC-ն շուկայում ներկայացված է Acobian Furniture ապրանքանիշով: Acobian-ը ապրանքանիշի անվանումն է, մինչդեռ Roots-ը ընկերության անվանումն է: Բաշխումից բացի, Roots-ը իր "Acobian Furniture" ապրանքանիշով Հայաստանի առաջատար կահույքի արտադրողներից մեկն է՝ տասնամյակների փորձառությամբ ճշգրիտ փայտամշակման, մեքենայացման ավտոմատացման և ժամանակակից արտադրական մեթոդների ոլորտում:',
+        'legal.disclaimer': 'Հրաժարում',
+        'legal.disclaimerText': 'Արտադրանքի բնութագրերը և տեղեկատվությունը կարող են փոխվել: Խնդրում ենք կապ հաստատել մեզ հետ մեր արտադրանքների և ծառայությունների վերաբերյալ ամենավերջին տեղեկատվության համար: Բոլոր արտադրանքի պատկերները և նկարագրությունները նախատեսված են միայն նկարագրական նպատակների համար:',
+        'legal.unicolInfo': 'Unicol S.r.l.-ը իտալական ընկերություն է, որը 1977 թվականից ի վեր արտադրում է արդյունաբերական սոսինձներ: Ընկերությունը առաջարկում է արտադրանքի լայն տեսականի, որը կարող է բավարարել տարբեր արդյունաբերական սեկտորների բազմաթիվ հարցումներ, ինչպիսիք են փայտամշակումը, վահանակների արտադրությունը, շինարարությունը, տեքստիլը և թղթային արտադրանքները: 45 տարուց ավելի փորձառությամբ Unicol-ը ունի բաշխում շատ երկրներում և առաջարկում է բարձրորակ կապակցման լուծումների լայն կատալոգ:',
+        'legal.backHome': '← Վերադառնալ գլխավոր էջ'
     }
 };
 
@@ -426,6 +514,30 @@ function translatePage(lang) {
         } else {
             document.title = 'All Products - Unicol Armenia | Roots LLC';
             if (metaDesc) metaDesc.setAttribute('content', 'Complete range of Unicol industrial adhesives products available in Armenia.');
+        }
+    } else if (currentPage === 'privacy-policy.html') {
+        if (lang === 'hy') {
+            document.title = 'Գաղտնիության Քաղաքականություն - Unicol Հայաստան | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Unicol Հայաստանի գաղտնիության քաղաքականություն:');
+        } else {
+            document.title = 'Privacy Policy - Unicol Armenia | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Privacy Policy for Unicol Armenia website.');
+        }
+    } else if (currentPage === 'terms-of-service.html') {
+        if (lang === 'hy') {
+            document.title = 'Ծառայության Պայմաններ - Unicol Հայաստան | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Unicol Հայաստանի կայքի օգտագործման պայմաններ:');
+        } else {
+            document.title = 'Terms of Service - Unicol Armenia | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Terms and conditions for using Unicol Armenia website.');
+        }
+    } else if (currentPage === 'legal-notes.html') {
+        if (lang === 'hy') {
+            document.title = 'Իրավական Նշումներ - Unicol Հայաստան | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Unicol Հայաստանի իրավական նշումներ և ընկերության տեղեկատվություն:');
+        } else {
+            document.title = 'Legal Notes - Unicol Armenia | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Legal notes and company information for Unicol Armenia.');
         }
     } else {
         // Default to index page
