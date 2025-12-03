@@ -157,7 +157,7 @@ const translations = {
         // Hero Section
         'hero.badge': 'Since 1977 • Italian Excellence',
         'hero.title': 'The Power of Bonding',
-        'hero.description1': 'Roots Furniture LLC - Official representative of Unicol industrial adhesives in Armenia.',
+        'hero.description1': 'Roots LLC - Official representative of Unicol industrial adhesives in Armenia.',
         'hero.description2': 'Your trusted partner for high-quality bonding solutions.',
         'hero.description3': '',
         'hero.btnProducts': 'Discover Products',
@@ -167,7 +167,7 @@ const translations = {
         'about.title': 'About Unicol and Roots',
         'about.text1': 'Unicol S.r.l. has been producing industrial adhesives in Italy since 1977. We offer a vast range of products capable of satisfying multiple requests from various industrial sectors such as wood processing, panels, construction, textile, and tissue.',
         'about.certified': 'Certified Partnership',
-        'about.text2': 'Roots Furniture LLC is the official representative of Unicol products in Armenia, providing professional support, technical expertise, and reliable supply of high-quality industrial adhesives for the Armenian market.',
+        'about.text2': 'Roots LLC is the official representative of Unicol products in Armenia, providing professional support, technical expertise, and reliable supply of high-quality industrial adhesives for the Armenian market.',
         'about.text3': 'Beyond distribution, Roots, with its "Acobian Furniture" brand is one of Armenia\'s leading furniture manufacturers with decades of experience in precision woodworking, machinery automation, and modern production methods.',
         
         // Certifications
@@ -209,7 +209,7 @@ const translations = {
         // Workshops
         'workshops.title': 'Workshops',
         'workshops.subtitle': 'Professional training and technical support',
-        'workshops.text1': 'Roots Furniture LLC offers comprehensive workshops and training sessions to help you get the most out of Unicol industrial adhesives. Our expert technicians provide hands-on training covering product selection, application techniques, and best practices for optimal bonding results.',
+        'workshops.text1': 'Roots LLC offers comprehensive workshops and training sessions to help you get the most out of Unicol industrial adhesives. Our expert technicians provide hands-on training covering product selection, application techniques, and best practices for optimal bonding results.',
         'workshops.text2': 'Whether you\'re working with wood processing, panel manufacturing, or specialized applications, our workshops are designed to enhance your technical knowledge and improve your production efficiency.',
         'workshops.feature1.title': 'Hands-On Training',
         'workshops.feature1.desc': 'Practical sessions with real-world applications',
@@ -235,7 +235,7 @@ const translations = {
         
         // Contact
         'contact.title': 'Contact Us',
-        'contact.subtitle': 'Get in touch with Roots Furniture LLC - Unicol Armenia',
+        'contact.subtitle': 'Get in touch with Roots LLC - Unicol Armenia',
         'contact.representative': 'Official Representative of Unicol in Armenia',
         'contact.emailLabel': 'Email',
         'contact.phoneLabel': 'Phone',
@@ -250,7 +250,7 @@ const translations = {
         'footer.privacy': 'Privacy Policy',
         'footer.terms': 'Terms of Service',
         'footer.legalNotes': 'Legal Notes',
-        'footer.copyright': '© 2025 Unicol Armenia - Roots Furniture LLC. All rights reserved.',
+        'footer.copyright': '© 2025 Unicol Armenia - Roots LLC. All rights reserved.',
         'footer.madeWith': 'Made with ❤️ in Armenia',
         
         // Privacy Policy
@@ -258,7 +258,7 @@ const translations = {
         'privacy.subtitle': 'How we handle your information',
         'privacy.lastUpdated': 'Last Updated:',
         'privacy.commitment': 'Our Commitment to Privacy',
-        'privacy.commitmentText': 'At Unicol Armenia (Roots Furniture LLC), we respect your privacy. This website does not collect, store, or process any personal data from visitors.',
+        'privacy.commitmentText': 'At Unicol Armenia (Roots LLC), we respect your privacy. This website does not collect, store, or process any personal data from visitors.',
         'privacy.dataCollection': 'Data Collection',
         'privacy.dataCollectionText': 'We do not use cookies for tracking purposes, and we do not share any information with third parties. Any information you voluntarily provide through contact forms or email communications is used solely for the purpose of responding to your inquiries.',
         'privacy.contactInfo': 'Contact Information',
@@ -277,7 +277,7 @@ const translations = {
         'terms.useOfWebsite': 'Use of Website',
         'terms.useOfWebsiteText': 'This website is provided for informational purposes only. The content is subject to change without notice. You may use this website for lawful purposes only and in accordance with these Terms of Service.',
         'terms.intellectualProperty': 'Intellectual Property',
-        'terms.intellectualPropertyText': 'All content, including text, images, logos, and other materials on this website, is the property of Unicol Armenia and Roots Furniture LLC and is protected by copyright laws. You may not reproduce, distribute, or use any content from this website without prior written permission.',
+        'terms.intellectualPropertyText': 'All content, including text, images, logos, and other materials on this website, is the property of Unicol Armenia and Roots LLC and is protected by copyright laws. You may not reproduce, distribute, or use any content from this website without prior written permission.',
         'terms.limitation': 'Limitation of Liability',
         'terms.limitationText': 'We are not liable for any damages arising from the use of this website or the information contained herein. The information on this website is provided "as is" without warranty of any kind.',
         'terms.contactUs': 'Contact Us',
@@ -292,9 +292,9 @@ const translations = {
         'legal.representative': 'Representative:',
         'legal.representativeText': 'Official representative of Unicol S.r.l. in Armenia',
         'legal.representation': 'Representation',
-        'legal.representationText': 'Roots Furniture LLC is the official and exclusive representative of Unicol S.r.l. in Armenia. The supply of Unicol industrial adhesives and bonding solutions in Armenia is carried out by Roots Furniture LLC.',
+        'legal.representationText': 'Roots LLC is the official and exclusive representative of Unicol S.r.l. in Armenia. The supply of Unicol industrial adhesives and bonding solutions in Armenia is carried out by Roots LLC.',
         'legal.brandInfo': 'Brand Information',
-        'legal.brandInfoText': 'Roots Furniture LLC is represented in the market by the Acobian Furniture brand. Acobian is the brand name, while Roots is the company name. Beyond distribution, Roots, with its "Acobian Furniture" brand, is one of Armenia\'s leading furniture manufacturers with decades of experience in precision woodworking, machinery automation, and modern production methods.',
+        'legal.brandInfoText': 'Roots LLC is represented in the market by the Acobian Furniture brand. Acobian is the brand name, while Roots is the company name. Beyond distribution, Roots, with its "Acobian Furniture" brand, is one of Armenia\'s leading furniture manufacturers with decades of experience in precision woodworking, machinery automation, and modern production methods.',
         'legal.disclaimer': 'Disclaimer',
         'legal.disclaimerText': 'Product specifications and information are subject to change. Please contact us for the most current information regarding our products and services. All product images and descriptions are for illustrative purposes only.',
         'legal.unicolInfo': 'Unicol S.r.l. is an Italian company that has been producing industrial adhesives since 1977. The company offers a vast range of products capable of satisfying multiple requests from various industrial sectors such as wood processing, panels, construction, textile, and tissue. With over 45 years of experience, Unicol has distribution in many countries and offers a wide catalogue of high-quality bonding solutions.',
@@ -312,7 +312,7 @@ const translations = {
         // Hero Section
         'hero.badge': '1977-ից • Իտալական Գերազանցություն',
         'hero.title': 'Միացման ուժը',
-        'hero.description1': 'Roots Furniture LLC - Unicol արդյունաբերական սոսինձների',
+        'hero.description1': 'Roots LLC - Unicol արդյունաբերական սոսինձների',
         'hero.description2': 'պաշտոնական ներկայացուցիչը Հայաստանում:',
         'hero.description3': 'Ձեր վստահելի գործընկերը բարձրորակ կապակցման լուծումների համար:',
         'hero.btnProducts': 'Բացահայտել մեր արտադրանքը',
@@ -323,7 +323,7 @@ const translations = {
         'about.text1': 'Unicol S.r.l.-ը 1977 թվականից ի վեր արտադրում է արդյունաբերական սոսինձներ Իտալիայում: Մենք առաջարկում ենք արտադրանքի լայն տեսականի տարբեր արդյունաբերական սեկտորների համար, ինչպիսիք են փայտամշակումը, վահանակների արտադրությունը, շինարարությունը, տեքստիլի և թղթային արտադրանքների ստացումը:',
         'about.certified': 'Հավաստագրված Գործընկերություն',
         'about.text2': 'Roots-ը իր "Acobian Furniture" ապրանքանիշով Հայաստանի առաջատար կահույքի արտադրողներից մեկն է՝ տասնամյակների փորձառությամբ ճշգրիտ փայտամշակման, մեքենայացման ավտոմատացման և ժամանակակից արտադրական մեթոդների ոլորտում:',
-        'about.text3': 'Roots Furniture LLC-ն Unicol արտադրանքի պաշտոնական ներկայացուցիչն է Հայաստանում, ապահովելով մասնագիտական աջակցություն, տեխնիկական փորձագիտություն և բարձրորակ արդյունաբերական սոսինձների հուսալի մատակարարում Հայաստանի շուկայի համար:',
+        'about.text3': 'Roots LLC-ն Unicol արտադրանքի պաշտոնական ներկայացուցիչն է Հայաստանում, ապահովելով մասնագիտական աջակցություն, տեխնիկական փորձագիտություն և բարձրորակ արդյունաբերական սոսինձների հուսալի մատակարարում Հայաստանի շուկայի համար:',
         
         // Certifications
         'certifications.title': 'Մեր Հավաստագրերը',
@@ -351,20 +351,20 @@ const translations = {
         'products.pageSubtitle': 'Արդյունաբերական սոսինձների ամբողջական տեսականի',
         'products.seeMore': 'Տեսնել ավելին',
         'products.backHome': 'Վերադառնալ գլխավոր էջ',
-        'products.nunivil1000': '<strong>ԼԱՄԻՆԱՑԻԱՅԻ ՀԱՄԱՐ</strong><br>Վինիլային D3 դիսպերսիա, նախատեսված փայտային հիմքով արտադրանքների՝ թղթով տաք և սառը լամինացման համար։ Հարմար է նաև D4 դասի սոսնձման համար՝ դաբաղանյութի կիրառման դեպքում։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարա, 1000 կգ տարա<br><br>• D3 դաս<br>• Բարձր դիմացկունություն ջրի, լուծիչների և ջերմաստիճանի նկատմամբ<br>• Միջինից բարձր մածուցիկություն',
-        'products.unibord694': '<strong>ՓԱՅՏԻՑ ԿՈՐԵՐԻ ՁԵՎԱՎՈՐՄԱՆ ՀԱՄԱՐ</strong><br>EVA հիմքով տաք հալվող սոսինձ՝ նախատեսված փայտի և պլաստիկ լամինատի եզրաշերտերի ավտոմատ ծածկման համար՝ soft-forming տեխնոլոգիայով։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարա<br><br>• Բնական բաղադրություն<br>• Soft-forming տեխնիկայի համար',
-        'products.resina401': '<strong>ՈւՐԱ-ՖՈՐՄԱԼԴԵՀԻԴԱՅԻՆ ՍՈՍԻՆՁ (UF ՍՈՍԻՆՁ)</strong><br>Ինքնակարծրացվող սոսինձ, բարձր արտադրողականություն, գերազանց լուծելիություն, գերազանց կպչունություն և ցածր արտահոսք։ Օգտագործվում է E1 դասի պանելների արտադրության մեջ։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարա<br><br>• E1 դասի արտադրատեսակների համար<br>• Ինքնակարծրացվող<br>• Բարձր արտադրողականություն<br>• Ցածր արտահոսք<br>• Հարմար տաք և բարձր հաճախականությամբ մամլիչների համար',
-        'products.nunipur7031': '<strong>ՄԵԿ ԲԱՂԱԴՐԻՉ ՊԱՐՈՒՆԱԿՈՂ</strong><br>Ջրային հիմքով մեկ բաղադրիչով պոլիուրեթանային սոսինձ՝ նախատեսված PVC թիթեղները մեմբրանային մամլիչներով (3D) սոսնձելու համար։<br><br>• Մեկ բաղադրիչ<br>• PVC-ի համար<br>• 3D մեմբրանային մամլիչների համար',
-        'products.nunivil165': '<strong>ԹԱՓԱՆՑԻԿ</strong><br>Արագ կպչողականությամբ վինիլային դիսպերսիոն սոսինձ, որը կահույքի հավաքման ընթացքում ապահովում է արագ ֆիքսացիա՝ սեղմակները հնարավոր դարձնելով հեռացնել շատ կարճ ժամանակ անց։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարա, 1000 կգ տարա<br><br>• Թափանցիկ<br>• Սուպեր արագ կպչում',
-        'products.unipren1070': '<strong>ԿՈՆՏԱԿՏԱՅԻՆ ՍՈՍԻՆՁ</strong><br>Կոնտակտային սոսինձ՝ նախատեսված սպատուլայով (spatula) կիրառման համար։<br><br><strong>Փաթեթավորում․</strong> 12 տարա × 1.75 կգ, 24 տարա × 0.85 կգ',
-        'products.nunivil25': '<strong>ԿՈՇՏ ՓԱՅՏԵՐԻ ՀԱՄԱՐ</strong><br>Վինիլային դիսպերսիոն սոսինձ՝ հատուկ կոշտ և խեժային փայտատեսակների սոսնձման համար։ Լայնորեն կիրառվում է և հայտնի է իր արագ կպչողականությամբ և թափանցիկ սոսնձագծով։ Ստուգված է CATAS լաբորատորիայում՝ աթոռների արտադրության համար (CREEP TEST)։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարա, 1000 կգ տարա<br><br>• Կոշտ փայտերի համար<br>• Բարձր ներթափանցում փայտի մեջ<br>• Թափանցիկ<br>• Հարմար աթոռների և սեղանների արտադրության համար',
-        'products.unibord607m': '<strong>ԿԻՍԱԹԱՓԱՆՑԻԿ</strong><br>EVA հիմքով տաք հալվող սոսինձ՝ բարձր կպչունությամբ և գրեթե անտեսանելի սոսնձագծով։ Հալման արագությունն ու ցածր մածուցիկությունը այս արտադրանքը դարձնում են չափազանց բազմաֆունկցիոնալ։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարա<br><br>• Կիսաթափանցիկ<br>• Բարձր կպչունություն<br>• Բարձր արտադրողականություն',
-        'products.unibord625': '<strong>ԹԱՓԱՆՑԻԿ</strong><br>Թափանցիկ EVA տաք հալվող սոսինձ՝ եզրագոտիների ավտոմատ սոսնձման համար, բարձր արտադրողականություն, ջրի և լուծիչների նկատմամբ դիմացկունություն։ Հարմար է փայտի, պոլիեսթերի, մելամինի, պլաստիկի, PVC և ABS եզրաշերտերի համար։ Հարմար է soft-forming և BAZ մշակման կենտրոններում (CNC մեքենաներ) կիրառման համար։<br><br><strong>Փաթեթավորում․</strong> 20 կգ տարա<br><br>• Թափանցիկ<br>• Soft-forming-ի և BAZ կենտրոնների համար',
+        'products.nunivil1000': '<strong>ԼԱՄԻՆԱՑԻԱՅԻ ՀԱՄԱՐ</strong><br>Ջրային հիմքով վինիլային դիսպերսիոն սոսինձ (D3 դաս), նախատեսված փայտային հիմքով արտադրանքների՝ թղթով (paper) տաք և սառը լամինացման համար։ Հարմար է նաև D4 դասի սոսնձման համար՝ կոփիչով կիրառման դեպքում։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարրա, 1000 կգ տարրա<br><br>• D3 դաս<br>• Բարձր դիմացկունություն ջրի, լուծիչների և ջերմաստիճանի նկատմամբ<br>• Միջին-բարձր մածուցիկություն',
+        'products.unibord694': '<strong>ՓԱՓԿԱՍԵՐՅԱԿ (SOFT-FORMING) ՀԱՄԱՐ</strong><br>EVA հիմքով տաք հալվող սոսինձ՝ նախատեսված փայտի և պլաստիկ լամինատի եզրաշերտերի ավտոմատ ծածկման համար՝ soft-forming տեխնոլոգիայով։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարրա<br><br>• Բնական բաղադրություն<br>• Soft-forming կիրառման համար',
+        'products.resina401': '<strong>ՅՈՒՐԵԱՅԻ ՀԻՄՔՈՎ ՍՈՍԻՆՁ</strong><br>Փոշեյին յուրեայի հիմքով սոսինձ՝ ինքնակոփում, բարձր արտադրողականություն, գերազանց լուծելիություն, հատուկ կպչունություն և ցածր արտահոսք։ Օգտագործվում է E1 դասի սալերի արտադրության մեջ։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարրա<br><br>• E1 դասի արտադրատեսակների համար<br>• Ինքնակոփում<br>• Բարձր արտադրողականություն<br>• Ցածր արտահոսք<br>• Հարմար տաք և բարձր հաճախականությամբ մամլիչների համար',
+        'products.nunipur7031': '<strong>ՄԻԱՅՆԱԲԱՂԱԴՐՈՂ</strong><br>Ջրային հիմքով միաբաղադրիչ պոլիուրեթանային սոսինձ՝ նախատեսված PVC թաղանթների համար՝ մեմբրանային մամլիչներով (3D)։<br><br>• Միայնաբաղադրիչ<br>• PVC-ի համար<br>• 3D մեմբրանային մամլիչների համար',
+        'products.nunivil165': '<strong>ԹԱՓԱՆԿ</strong><br>Վինիլային դիսպերսիոն սոսինձ շատ արագ կոփմամբ․ կահույքի հավաքման դեպքում թղթապնակների սեղմակները հնարավոր է հեռացնել կարճ ժամանակում։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարրա, 1000 կգ տարրա<br><br>• Թափանցիկ<br>• Սուպեր արագ կոփում',
+        'products.unipren1070': '<strong>ԿՈՆՏԱԿՏԱՅԻՆ ՍՈՍԻՆՁ</strong><br>Կոնտակտային սոսինձ՝ նախատեսված սպաթուլայով (spatula) կիրառման համար։<br><br><strong>Փաթեթավորում․</strong> 12 տարրա × 1.75 կգ, 24 տարրա × 0.85 կգ',
+        'products.nunivil25': '<strong>ԿՈՇՏ ՓԱՅՏԵՐԻ ՀԱՄԱՐ</strong><br>Վինիլային դիսպերսիոն սոսինձ՝ հատուկ կոշտ և խեժային փայտատեսակների սոսնձման համար։ Գնահատված է իր արագ կապով և թափանցիկ սոսնձագծով։ Ստուգված է CATAS լաբորատորիայում՝ աթոռների արտադրության համար (CREEP TEST)։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարրա, 1000 կգ տարրա<br><br>• Կոշտ փայտերի համար<br>• Բարձր ներթափանցում փայտի մեջ<br>• Թափանցիկ<br>• Հարմար աթոռների և սեղանների արտադրության համար',
+        'products.unibord607m': '<strong>ԿԵՍԱԹԱՓԱՆԿ</strong><br>EVA հիմքով տաք հալվող սոսինձ՝ բարձր կպչունությամբ և գրեթե անտեսանելի սոսնձագծով։ Արագ հալում, ցածր մածուցիկություն և երկար բաց ժամանակ՝ բազմաֆունկցիոնալ կիրառման համար։<br><br><strong>Փաթեթավորում․</strong> 25 կգ տարրա<br><br>• Կեսաթափանցիկ<br>• Բարձր կպչունություն<br>• Բարձր արտադրողականություն',
+        'products.unibord625': '<strong>ԹԱՓԱՆԿ</strong><br>Թափանցիկ EVA տաք հալվող սոսինձ՝ եզրագոտիների ավտոմատ սոսնձման համար, բարձր արտադրողականություն, ջրի և լուծիչների նկատմամբ դիմացկուն։ Հարմար փայտի, պոլիեսթերի, մելամինի, պլաստիկի, PVC և ABS եզրաշերտերի համար։ Հարմար է soft-forming և BAZ կենտրոնների (մեքենաներ CNC) համար։<br><br><strong>Փաթեթավորում․</strong> 20 կգ տարրա<br><br>• Թափանցիկ<br>• Soft-forming և BAZ կենտրոնների համար',
         
         // Workshops
         'workshops.title': 'Վարպետաց դասեր',
         'workshops.subtitle': 'Մասնագիտական վերապատրաստում և տեխնիկական աջակցություն',
-        'workshops.text1': 'Roots Furniture LLC-ն առաջարկում է վարպետաց դասեր և վերապատրաստումներ՝ օգնելու ձեզ առավելագույնս օգտագործել Unicol արդյունաբերական սոսինձները: Մեր փորձագետ տեխնիկները ձեզ կսովորեցնեն կատարել արտադրանքի ճիշտ ընտրություն, կիրառել լավագույն տեխնիկաներն ու պրակտիկաները՝ կապակցման օպտիմալ արդյունքներ ստանալու համար:',
+        'workshops.text1': 'Roots LLC-ն առաջարկում է վարպետաց դասեր և վերապատրաստումներ՝ օգնելու ձեզ առավելագույնս օգտագործել Unicol արդյունաբերական սոսինձները: Մեր փորձագետ տեխնիկները ձեզ կսովորեցնեն կատարել արտադրանքի ճիշտ ընտրություն, կիրառել լավագույն տեխնիկաներն ու պրակտիկաները՝ կապակցման օպտիմալ արդյունքներ ստանալու համար:',
         'workshops.text2': 'Անկախ նրանից, թե դուք աշխատում եք փայտամշակման, վահանակների արտադրության, թե մասնագիտացված այլ կիրառությունների հետ, մեր վարպետաց դասերը նախագծված են ձեր տեխնիկական գիտելիքները բարելավելու և արտադրական արդյունավետությունը բարձրացնելու համար:',
         'workshops.feature1.title': 'Գործնական Վերապատրաստում',
         'workshops.feature1.desc': 'Գործնական դասեր՝ իրական արտադրական կիրառություններով',
@@ -389,7 +389,7 @@ const translations = {
         
         // Contact
         'contact.title': 'Կապ մեզ հետ',
-        'contact.subtitle': 'Կապ հաստատեք Roots Furniture LLC - Unicol Armenia-ի հետ',
+        'contact.subtitle': 'Կապ հաստատեք Roots LLC - Unicol Armenia-ի հետ',
         'contact.representative': 'Unicol-ի պաշտոնական ներկայացուցիչը Հայաստանում',
         'contact.emailLabel': 'Էլ. փոստ',
         'contact.phoneLabel': 'Հեռախոս',
@@ -404,7 +404,7 @@ const translations = {
         'footer.privacy': 'Գաղտնիության քաղաքականություն',
         'footer.terms': 'Ծառայության պայմաններ',
         'footer.legalNotes': 'Իրավական նշումներ',
-        'footer.copyright': '© 2025 Unicol Armenia - Roots Furniture LLC. Բոլոր իրավունքները պաշտպանված են:',
+        'footer.copyright': '© 2025 Unicol Armenia - Roots LLC. Բոլոր իրավունքները պաշտպանված են:',
         'footer.madeWith': 'Ստեղծված է ❤️-ով Հայաստանում',
         
         // Privacy Policy
@@ -431,7 +431,7 @@ const translations = {
         'terms.useOfWebsite': 'Կայքի Օգտագործում',
         'terms.useOfWebsiteText': 'Այս կայքը ստեղծվել է բացառապես տեղեկատվական նպատակներով: Բովանդակությունը կարող է փոխվել առանց նախապես ծանուցման: Դուք կարող եք օգտագործել այս կայքը միայն օրինական նպատակներով և այս Ծառայությունների Մատուցման Պայմաններին համապատասխան:',
         'terms.intellectualProperty': 'Ինտելեկտուալ Սեփականություն',
-        'terms.intellectualPropertyText': 'Այս կայքի ամբողջ բովանդակությունը, ներառյալ տեքստերը, պատկերները, լոգոները և այլ նյութեր, Unicol Հայաստանի և Roots Furniture LLC-ի սեփականությունն են և պաշտպանված են հեղինակային իրավունքների օրենքներով: Դուք չեք կարող վերարտադրել, տարածել կամ օգտագործել այս կայքի որևէ բովանդակություն առանց նախապես գրավոր թույլտվության:',
+        'terms.intellectualPropertyText': 'Այս կայքի ամբողջ բովանդակությունը, ներառյալ տեքստերը, պատկերները, լոգոները և այլ նյութեր, Unicol Հայաստանի և Roots LLC-ի սեփականությունն են և պաշտպանված են հեղինակային իրավունքների օրենքներով: Դուք չեք կարող վերարտադրել, տարածել կամ օգտագործել այս կայքի որևէ բովանդակություն առանց նախապես գրավոր թույլտվության:',
         'terms.limitation': 'Պատասխանատվության Սահմանափակում',
         'terms.limitationText': 'Մենք պատասխանատվություն չենք կրում այս կայքը կամ դրա մեջ պարունակվող տեղեկատվությունը օգտագործելուց առաջացած որևէ վնասի համար: Այս կայքի տեղեկատվությունը տրամադրվում է "ինչպես կա"՝ առանց որևէ երաշխիքի:',
         'terms.contactUs': 'Կապ Մեզ Հետ',
@@ -446,9 +446,9 @@ const translations = {
         'legal.representative': 'Ներկայացուցիչ:',
         'legal.representativeText': 'Unicol S.r.l.-ի պաշտոնական ներկայացուցիչը Հայաստանում',
         'legal.representation': 'Ներկայացում',
-        'legal.representationText': 'Roots Furniture LLC-ն Unicol S.r.l.-ի պաշտոնական և բացառիկ ներկայացուցիչն է Հայաստանում: Unicol արդյունաբերական սոսինձների և կապակցման լուծումների մատակարարումը Հայաստանում իրականացվում է Roots Furniture LLC-ի կողմից:',
+        'legal.representationText': 'Roots LLC-ն Unicol S.r.l.-ի պաշտոնական և բացառիկ ներկայացուցիչն է Հայաստանում: Unicol արդյունաբերական սոսինձների և կապակցման լուծումների մատակարարումը Հայաստանում իրականացվում է Roots LLC-ի կողմից:',
         'legal.brandInfo': 'Ապրանքանիշի Տեղեկատվություն',
-        'legal.brandInfoText': 'Roots Furniture LLC-ն շուկայում ներկայացված է Acobian Furniture ապրանքանիշով: Roots-ը Հայաստանի առաջատար կահույքի արտադրողներից մեկն է՝ տասնամյակների փորձառությամբ ճշգրիտ փայտամշակման, մեքենայացման ավտոմատացման և ժամանակակից արտադրական մեթոդների ոլորտում:',
+        'legal.brandInfoText': 'Roots LLC-ն շուկայում ներկայացված է Acobian Furniture ապրանքանիշով: Roots-ը Հայաստանի առաջատար կահույքի արտադրողներից մեկն է՝ տասնամյակների փորձառությամբ ճշգրիտ փայտամշակման, մեքենայացման ավտոմատացման և ժամանակակից արտադրական մեթոդների ոլորտում:',
         'legal.disclaimer': 'Հրաժարում',
         'legal.disclaimerText': 'Արտադրանքի բնութագրերը և տեղեկատվությունը կարող են փոխվել: Խնդրում ենք կապ հաստատել մեզ հետ մեր արտադրանքների և ծառայությունների վերաբերյալ ամենավերջին տեղեկատվության համար: Բոլոր արտադրանքի պատկերները և նկարագրությունները նախատեսված են միայն նկարագրական նպատակների համար:',
         'legal.unicolInfo': 'Unicol S.r.l.-ը իտալական ընկերություն է, որը 1977 թվականից ի վեր արտադրում է արդյունաբերական սոսինձներ: Ընկերությունը առաջարկում է արտադրանքի լայն տեսականի, որը կարող է բավարարել տարբեր արդյունաբերական սեկտորների բազմաթիվ հարցումներ, ինչպիսիք են փայտամշակումը, վահանակների արտադրությունը, շինարարությունը, տեքստիլը և թղթային արտադրանքները: 45 տարուց ավելի փորձառությամբ Unicol-ը ունի բաշխում շատ երկրներում և առաջարկում է բարձրորակ կապակցման լուծումների լայն կատալոգ:',
@@ -507,52 +507,52 @@ function translatePage(lang) {
     
     if (currentPage === 'applications.html') {
         if (lang === 'hy') {
-            document.title = 'Բոլոր Կիրառությունները - Unicol Հայաստան | Roots Furniture LLC';
+            document.title = 'Բոլոր Կիրառությունները - Unicol Հայաստան | Roots LLC';
             if (metaDesc) metaDesc.setAttribute('content', 'Unicol արդյունաբերական սոսինձների կիրառությունների ամբողջական տեսականի:');
         } else {
-            document.title = 'All Applications - Unicol Armenia | Roots Furniture LLC';
+            document.title = 'All Applications - Unicol Armenia | Roots LLC';
             if (metaDesc) metaDesc.setAttribute('content', 'Complete range of industrial adhesive applications available from Unicol.');
         }
     } else if (currentPage === 'products.html') {
         if (lang === 'hy') {
-            document.title = 'Բոլոր Ապրանքները - Unicol Հայաստան | Roots Furniture LLC';
+            document.title = 'Բոլոր Ապրանքները - Unicol Հայաստան | Roots LLC';
             if (metaDesc) metaDesc.setAttribute('content', 'Unicol արդյունաբերական սոսինձների ամբողջական տեսականի Հայաստանում:');
         } else {
-            document.title = 'All Products - Unicol Armenia | Roots Furniture LLC';
+            document.title = 'All Products - Unicol Armenia | Roots LLC';
             if (metaDesc) metaDesc.setAttribute('content', 'Complete range of Unicol industrial adhesives products available in Armenia.');
         }
     } else if (currentPage === 'privacy-policy.html') {
         if (lang === 'hy') {
-            document.title = 'Գաղտնիության Քաղաքականություն - Unicol Հայաստան | Roots Furniture LLC';
+            document.title = 'Գաղտնիության Քաղաքականություն - Unicol Հայաստան | Roots LLC';
             if (metaDesc) metaDesc.setAttribute('content', 'Unicol Հայաստանի գաղտնիության քաղաքականություն:');
         } else {
-            document.title = 'Privacy Policy - Unicol Armenia | Roots Furniture LLC';
+            document.title = 'Privacy Policy - Unicol Armenia | Roots LLC';
             if (metaDesc) metaDesc.setAttribute('content', 'Privacy Policy for Unicol Armenia website.');
         }
     } else if (currentPage === 'terms-of-service.html') {
         if (lang === 'hy') {
-            document.title = 'Ծառայությունների Մատուցման Պայմաններ - Unicol Հայաստան | Roots Furniture LLC';
+            document.title = 'Ծառայությունների Մատուցման Պայմաններ - Unicol Հայաստան | Roots LLC';
             if (metaDesc) metaDesc.setAttribute('content', 'Unicol Հայաստանի կայքի օգտագործման պայմաններ:');
         } else {
-            document.title = 'Terms of Service - Unicol Armenia | Roots Furniture LLC';
+            document.title = 'Terms of Service - Unicol Armenia | Roots LLC';
             if (metaDesc) metaDesc.setAttribute('content', 'Terms and conditions for using Unicol Armenia website.');
         }
     } else if (currentPage === 'legal-notes.html') {
         if (lang === 'hy') {
-            document.title = 'Իրավական Նշումներ - Unicol Հայաստան | Roots Furniture LLC';
+            document.title = 'Իրավական Նշումներ - Unicol Հայաստան | Roots LLC';
             if (metaDesc) metaDesc.setAttribute('content', 'Unicol Հայաստանի իրավական նշումներ և ընկերության տեղեկատվություն:');
         } else {
-            document.title = 'Legal Notes - Unicol Armenia | Roots Furniture LLC';
+            document.title = 'Legal Notes - Unicol Armenia | Roots LLC';
             if (metaDesc) metaDesc.setAttribute('content', 'Legal notes and company information for Unicol Armenia.');
         }
     } else {
         // Default to index page
         if (lang === 'hy') {
-            document.title = 'Unicol Հայաստան - Արդյունաբերական Սոսինձներ | Roots Furniture LLC';
-            if (metaDesc) metaDesc.setAttribute('content', 'Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչ Հայաստանում: Roots Furniture LLC - ձեր վստահելի գործընկերը բարձրորակ կապակցման լուծումների համար:');
+            document.title = 'Unicol Հայաստան - Արդյունաբերական Սոսինձներ | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Unicol արդյունաբերական սոսինձների պաշտոնական ներկայացուցիչ Հայաստանում: Roots LLC - ձեր վստահելի գործընկերը բարձրորակ կապակցման լուծումների համար:');
         } else {
-            document.title = 'Unicol Armenia - Industrial Adhesives | Roots Furniture LLC';
-            if (metaDesc) metaDesc.setAttribute('content', 'Official representative of Unicol industrial adhesives in Armenia. Roots Furniture LLC - Your trusted partner for high-quality bonding solutions.');
+            document.title = 'Unicol Armenia - Industrial Adhesives | Roots LLC';
+            if (metaDesc) metaDesc.setAttribute('content', 'Official representative of Unicol industrial adhesives in Armenia. Roots LLC - Your trusted partner for high-quality bonding solutions.');
         }
     }
 }
