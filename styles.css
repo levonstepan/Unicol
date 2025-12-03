@@ -417,7 +417,7 @@ section {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1.8fr 2fr;
+    grid-template-columns: 2.2fr 1.8fr;
     gap: 3rem;
     align-items: start;
 }
@@ -436,7 +436,7 @@ section {
 .about-image-frame {
     border: 6px solid #0C2577;
     border-radius: 8px;
-    padding: 6px;
+    padding: 4px;
     background: white;
     box-shadow: var(--shadow-md);
     position: relative;
