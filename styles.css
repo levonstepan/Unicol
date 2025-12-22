@@ -417,14 +417,14 @@ section {
     max-width: 1400px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 2.5fr 1.5fr;
-    gap: 1rem;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 0;
     align-items: start;
 }
 
 .about-content > div:first-child {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: start;
 }
 
