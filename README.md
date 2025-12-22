@@ -1,6 +1,6 @@
 # Unicol Armenia - Official Website
 
-Official website for Unicol industrial adhesives in Armenia, represented by Roots LLC.
+Official website for Unicol industrial adhesives in Armenia, represented by Roots Furniture LLC.
 
 ## Overview
 
@@ -36,7 +36,7 @@ unicol/
 ## Sections
 
 1. **Hero**: Main landing section with company introduction
-2. **About**: Information about Unicol and Roots LLC
+2. **About**: Information about Unicol and Roots Furniture LLC
 3. **Products**: Display of all product categories
 4. **Applications**: Industrial sectors and applications
 5. **R&D**: Research and development information
@@ -102,11 +102,11 @@ The website is prepared for Armenian language support. To implement:
 
 ## License
 
-© 2025 Unicol Armenia - Roots LLC. All rights reserved.
+© 2025 Unicol Armenia - Roots Furniture LLC. All rights reserved.
 
 ## Contact
 
-**Roots LLC**
+**Roots Furniture LLC**
 Official Representative of Unicol in Armenia
 
 Email: info@roots.am
