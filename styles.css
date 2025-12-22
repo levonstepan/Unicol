@@ -428,6 +428,10 @@ section {
     align-items: start;
 }
 
+.about-content > div:last-child {
+    margin-left: -1rem;
+}
+
 .about .section-header {
     max-width: 1200px;
     margin: 0 auto;
