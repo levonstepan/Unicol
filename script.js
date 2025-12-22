@@ -167,7 +167,7 @@ const translations = {
         'about.title': 'About Unicol and Roots',
         'about.text1': 'Unicol S.r.l. has been producing industrial adhesives in Italy since 1977. We offer a vast range of products capable of satisfying multiple requests from various industrial sectors such as wood processing, panels, construction, textile, and tissue.',
         'about.certified': 'Certified Partnership',
-        'about.text2': 'Roots Furniture LLC is the official representative of Unicol products in Armenia, providing professional support, technical expertise, and reliable supply of high-quality industrial adhesives for the Armenian market.',
+        'about.text2': 'Roots Furniture LLC is the official representative of Unicol products in Armenia, providing professional support, technical expertise, and reliable supply of high-quality industrial adhesives for the Armenian market. Our partnership ensures that Armenian manufacturers have access to world-class bonding solutions backed by decades of Italian excellence and innovation.',
         'about.text3': 'Beyond distribution, Roots, with its "Acobian Furniture" brand is one of Armenia\'s leading furniture manufacturers with decades of experience in precision woodworking, machinery automation, and modern production methods.',
         
         // Certifications
@@ -322,7 +322,7 @@ const translations = {
         'about.title': 'Unicol-ի և Roots-ի մասին',
         'about.text1': 'Unicol S.r.l.-ը 1977 թվականից ի վեր արտադրում է արդյունաբերական սոսինձներ Իտալիայում: Մենք առաջարկում ենք արտադրանքի լայն տեսականի տարբեր արդյունաբերական սեկտորների համար, ինչպիսիք են փայտամշակումը, վահանակների արտադրությունը, շինարարությունը, տեքստիլի և թղթային արտադրանքների ստացումը:',
         'about.certified': 'Հավաստագրված Գործընկերություն',
-        'about.text2': 'Roots-ը իր "Acobian Furniture" ապրանքանիշով Հայաստանի առաջատար կահույքի արտադրողներից մեկն է՝ տասնամյակների փորձառությամբ ճշգրիտ փայտամշակման, մեքենայացման ավտոմատացման և ժամանակակից արտադրական մեթոդների ոլորտում:',
+        'about.text2': 'Roots Furniture LLC-ն Unicol արտադրանքի պաշտոնական ներկայացուցիչն է Հայաստանում, ապահովելով մասնագիտական աջակցություն, տեխնիկական փորձագիտություն և բարձրորակ արդյունաբերական սոսինձների հուսալի մատակարարում Հայաստանի շուկայի համար: Մեր գործընկերությունը ապահովում է, որ հայաստանյան արտադրողները հասանելիություն ունենան աշխարհի լավագույն կապակցման լուծումներին, որոնք աջակցվում են տասնամյակների իտալական գերազանցությամբ և նորարարությամբ:',
         'about.text3': 'Roots Furniture LLC-ն Unicol արտադրանքի պաշտոնական ներկայացուցիչն է Հայաստանում, ապահովելով մասնագիտական աջակցություն, տեխնիկական փորձագիտություն և բարձրորակ արդյունաբերական սոսինձների հուսալի մատակարարում Հայաստանի շուկայի համար:',
         
         // Certifications
