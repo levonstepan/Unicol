@@ -1114,6 +1114,21 @@ section {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.workshop-feature:nth-child(1) {
+    background: #FFF0EE;
+    border-color: #FFD6D0;
+}
+
+.workshop-feature:nth-child(2) {
+    background: #E8F0F8;
+    border-color: #C8D9EB;
+}
+
+.workshop-feature:nth-child(3) {
+    background: #F0F9FF;
+    border-color: #D0E7F5;
+}
+
 .workshop-feature:hover {
     transform: translateY(-5px);
     box-shadow: var(--shadow-md);
