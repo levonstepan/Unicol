@@ -422,6 +422,12 @@ section {
     align-items: start;
 }
 
+.about-content > div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
 .about .section-header {
     max-width: 1200px;
     margin: 0 auto;
@@ -440,6 +446,10 @@ section {
     background: white;
     box-shadow: var(--shadow-md);
     position: relative;
+    display: inline-block;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .about-image-frame::before {
