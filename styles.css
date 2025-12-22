@@ -418,7 +418,7 @@ section {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 2.5fr 1.5fr;
-    gap: 2.5rem;
+    gap: 1rem;
     align-items: start;
 }
 
