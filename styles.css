@@ -455,10 +455,12 @@ section {
 }
 
 .about-image {
-    width: 100%;
+    width: 80%;
+    max-width: 400px;
     height: auto;
     display: block;
     border-radius: 4px;
+    margin: 0 auto;
 }
 
 .about-text p {
