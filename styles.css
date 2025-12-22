@@ -448,7 +448,7 @@ section {
     position: relative;
     display: inline-block;
     width: fit-content;
-    max-width: 100%;
+    max-width: 450px;
     margin: 0 auto;
 }
 
