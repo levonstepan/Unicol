@@ -110,7 +110,6 @@ The website is prepared for Armenian language support. To implement:
 Official Representative of Unicol in Armenia
 
 Email: info@roots.am
-Phone: +374 XX XXX XXX
 Address: Yerevan, Armenia
 
 ---

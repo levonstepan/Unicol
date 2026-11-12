@@ -238,7 +238,6 @@ const translations = {
         'contact.subtitle': 'Get in touch with Roots Furniture LLC - Unicol Armenia',
         'contact.representative': 'Official Representative of Unicol in Armenia',
         'contact.emailLabel': 'Email',
-        'contact.phoneLabel': 'Phone',
         'contact.addressLabel': 'Address',
         'contact.address': '20/1 Ter-Gabrielyan Street, Vagharshapat',
         
@@ -264,7 +263,6 @@ const translations = {
         'privacy.contactInfo': 'Contact Information',
         'privacy.contactInfoText': 'If you have any questions about this privacy policy, please contact us at:',
         'privacy.contactEmail': 'Email: info@roots.am',
-        'privacy.contactPhone': 'Phone: +374 91 665520',
         'privacy.contactAddress': 'Address: 20/1 Ter-Gabrielyan Street, Vagharshapat, Armenia',
         'privacy.backHome': '← Back to Home',
         
@@ -392,7 +390,6 @@ const translations = {
         'contact.subtitle': 'Կապ հաստատեք Roots Furniture LLC - Unicol Armenia-ի հետ',
         'contact.representative': 'Unicol-ի պաշտոնական ներկայացուցիչը Հայաստանում',
         'contact.emailLabel': 'Էլ. փոստ',
-        'contact.phoneLabel': 'Հեռախոս',
         'contact.addressLabel': 'Հասցե',
         'contact.address': 'Վաղարշապատ, Տեր-Գաբրիելյան փողոց 20/1',
         
@@ -418,7 +415,6 @@ const translations = {
         'privacy.contactInfo': 'Կոնտակտային Տեղեկատվություն',
         'privacy.contactInfoText': 'Եթե ունեք հարցեր այս գաղտնիության քաղաքականության վերաբերյալ, խնդրում ենք կապ հաստատել մեզ հետ:',
         'privacy.contactEmail': 'Էլ. փոստ info@roots.am',
-        'privacy.contactPhone': 'Հեռախոս +374 91 665520',
         'privacy.contactAddress': 'Հասցե Վաղարշապատ, Տեր-Գաբրիելյան փողոց 20/1',
         'privacy.backHome': '← Վերադառնալ գլխավոր էջ',
         
